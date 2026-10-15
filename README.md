@@ -54,7 +54,7 @@ These extra instructions are optional. Full-paper organization, local editing, a
 
 ## Evidence before drafting, checks after writing
 
-For both a new draft and a revision—even a short passage—PhysWhen first searches relevant literature and terminology, reads the needed sources, and maps key claims to their evidence and conditions. It writes from those notes, then checks the finished text against sources, terminology, equations, and scope. Retrieval is proportional to the task. If it cannot retrieve sources, it reports that limitation and offers only clearly identified source-limited work; it does not claim verification. This workflow is a design constraint, not a proven readability improvement. See the [evidence workflow](skills/physwhen/references/evidence-workflow.md).
+For both a new draft and a revision—even a short passage—PhysWhen retrieves relevant literature as a reference for terminology, exposition, and organization. It preserves the supplied scientific content, assesses whole-paper structure before polishing, and checks that the edit loses or changes no scientific commitments. Scientific concerns are reported separately; they are not applied as corrections without explicit authorization. Retrieval is proportional to the task. If it cannot retrieve sources, it reports that limitation and offers only clearly identified source-limited work; it does not claim verification. This workflow is a design constraint, not a proven readability improvement. See the [evidence workflow](skills/physwhen/references/evidence-workflow.md).
 
 ## What it does
 

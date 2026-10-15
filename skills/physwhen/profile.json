@@ -245,8 +245,14 @@
   },
   "evidence_workflow_policy": {
     "basis": "user-requested research-before-writing and post-draft checking",
-    "scope": "all scientific drafting and revision; retrieval proportional to task",
+    "scope": "all drafting and revision; retrieval for editorial reference and fidelity, not scientific correction",
     "historical_corpus_measurement": "not_performed",
+    "human_readability_effect": "not_established"
+  },
+  "editorial_scope_policy": {
+    "scientific_content": "preserve; flag concerns separately unless scientific changes explicitly authorized",
+    "whole_paper_revision": "structural assessment required; apply justified editorial reorganization before polishing",
+    "basis": "user clarification; design constraint",
     "human_readability_effect": "not_established"
   }
 }
