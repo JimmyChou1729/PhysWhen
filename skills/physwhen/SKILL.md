@@ -1,9 +1,15 @@
 ---
-name: physics-paper-style-v3
-description: Organize or revise English theoretical-physics research papers using source-traceable argument planning and local prose operations. Use for whole-paper logic, result presentation, assumptions and scientific interpretation while preserving the supplied physics.
+name: physwhen
+description: Write, revise, or organize English theoretical-physics research papers from supplied scientific material. Use when asked to use PhysWhen, draft a physics paper, improve its argument structure, or edit its prose while preserving the physics.
 ---
 
-Use the user's scientific material, requested length and intended reader as the authority. PhysWhen v3 adds exploratory whole-paper organization to the earlier local operations. Historical examples establish possible organizations, not ideal human writing or a proven readability benefit.
+Use the user's scientific material, requested length and intended reader as the authority. PhysWhen combines exploratory whole-paper organization with local prose operations. Historical examples establish possible organizations, not ideal human writing or a proven readability benefit.
+
+## Handle a simple request
+
+Accept short requests such as “Use physwhen to revise this paper” or “Use physwhen to write a paper from these notes.” Read the supplied draft or notes and infer the relevant scope; do not make the user restate these instructions or complete an intake checklist. Use the existing draft's audience and length as defaults; for a new draft infer a reasonable scope from the material and state consequential assumptions briefly. Write the paper in English unless another language is requested.
+
+A broad revision request permits useful changes to argument order and prose while preserving the supplied science; an explicitly local edit stays local. Return the requested draft or revision directly, with only material gaps or scientific conflicts called out separately. If only a topic is supplied, ask for the missing scientific results or offer a clearly labeled outline; do not invent original findings to produce a complete-looking research paper. Ask only about missing information that materially affects scientific content or the requested outcome.
 
 ## Choose the scope
 

@@ -1,7 +1,7 @@
 import unittest,importlib.util
 from pathlib import Path
-p=Path('skills/physics-paper-style-v3/scripts/check_outline.py');spec=importlib.util.spec_from_file_location('outline_v3',p);mod=importlib.util.module_from_spec(spec);spec.loader.exec_module(mod)
-class OutlineV3Test(unittest.TestCase):
+p=Path('skills/physwhen/scripts/check_outline.py');spec=importlib.util.spec_from_file_location('outline',p);mod=importlib.util.module_from_spec(spec);spec.loader.exec_module(mod)
+class OutlineTest(unittest.TestCase):
  def setUp(self):
   self.plan={'questions':[{'id':'q','status':'answered','claim_ids':['c']}],'claims':[{'id':'c','status':'supported','evidence_ids':['e'],'condition_ids':['a']}],'evidence':[{'id':'e'}],'conditions':[{'id':'a'}],'sections':[{'id':'overview','purpose':'Preview result','claim_ids':['c'],'condition_ids':['a']},{'id':'derivation','purpose':'Supply later derivation','evidence_ids':['e']}],'dependencies':[{'from':'e','to':'c'}]}
  def test_result_first_accepted(self):self.assertEqual(mod.check(self.plan)['status'],'pass')

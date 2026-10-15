@@ -4,7 +4,7 @@
 
 ## 入库范围
 
-代码、配置、测试、当前v3的完整skill资源、合成接口示例、使用与研究说明、匿名盲测前端及其可转发文件。旧版skill与研究阶段文件仍在原工作区保留，不在首次分发范围内。
+代码、配置、测试、当前physwhen的完整skill资源、合成接口示例、使用与研究说明、匿名盲测前端及其可转发文件。旧版skill从当前分发入口移除；已经提交过的内容保留在 Git 历史中。本地研究阶段文件和冻结快照仍在原工作区保留，不随当前分发包上传。
 
 根目录 `.gitignore` 采用显式允许范围；新建根目录默认忽略。`data/`、`experiments/`、`reports/`、`archives/`、`task_reference/`、本机依赖及临时计划均不入库，包括：
 
@@ -28,3 +28,7 @@
 - [openai/skills](https://github.com/openai/skills)：skill概念、安装入口与许可；该仓库现已标记deprecated，安装细节以当前官方文档为准。
 
 因此README聚焦“项目做什么—快速开始—使用示例—工作原理—证据范围—开发入口”，把采集、研究重放和审查记录移到二级文档。Codex本地安装依据为 [Build skills](https://learn.chatgpt.com/docs/build-skills)，核查日期2026-10-15。
+
+## 单一维护入口
+
+只维护 `skills/physwhen/` 和 `deliverables/PhysWhen-skill.zip`。英文 README 为默认入口，`README.zh-CN.md` 为对应中文版；同步更新核心说明、命令和证据范围。用 Git 提交定位历史内容，不再新增带编号的对外skill目录。旧实验快照及协议标识保持原样，只用于追溯。

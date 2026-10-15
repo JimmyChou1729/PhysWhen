@@ -19,7 +19,7 @@ Every list can be empty where the task warrants it. Question status: answered/op
 `deferred_material` entries contain `id`, `reason`, `destination`, and `available` (boolean). `available: false` is disclosed as unwritten material, never silently treated as available proof.
 
 ```bash
-python3 /path/to/physics-paper-style-v3/scripts/check_outline.py outline.json
+python3 /path/to/physwhen/scripts/check_outline.py outline.json
 ```
 
 Errors indicate malformed/dangling IDs, conflicting identity, a claimed answer without a claim, a declared supported claim without identified evidence, or a selected claim/condition/evidence absent from the outline. A hint about unwritten deferred material is not an automatic rejection. The helper cannot tell whether an evidence ID actually supports a claim, whether conditions are sufficient, whether sections are coherent, or whether readers prefer the result.

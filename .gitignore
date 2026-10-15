@@ -2,6 +2,7 @@
 /*
 !/.gitignore
 !/README.md
+!/README.zh-CN.md
 !/THIRD_PARTY_NOTICES.md
 !/docs/
 !/examples/
@@ -15,7 +16,7 @@
 
 # Only the current, reviewed portable skill; legacy experiments stay local.
 /skills/*
-!/skills/physics-paper-style-v3/
+!/skills/physwhen/
 
 # Reader assets contain masked texts, never the private assignment key.
 /reader/*
@@ -28,7 +29,7 @@
 
 # Explicit transferable artifacts only.
 /deliverables/*
-!/deliverables/PhysWhen-skill-v3.zip
+!/deliverables/PhysWhen-skill.zip
 !/deliverables/PhysWhen-Blind-Test-03.html
 !/deliverables/PhysWhen-Blind-Test-03.zip
 !/deliverables/PhysWhen-03-阅读邀请.txt

@@ -6,18 +6,22 @@
 
 ```bash
 python3 -m physstyle doctor
-python3 skills/physics-paper-style-v3/scripts/check_outline.py examples/outline.json
+python3 skills/physwhen/scripts/check_outline.py examples/outline.json
 python3 -m unittest discover -s tests -p 'test_core.py' -v
-python3 -m unittest discover -s tests -p 'test_outline_v3.py' -v
+python3 -m unittest discover -s tests -p 'test_outline.py' -v
 ```
 
 仅使用skill时不需要运行这些命令。`doctor`只检查本机环境，不验证网络或模型服务。
 
 `tests/`还包含依赖本地语料、旧skill版本、实验输出和报告的验收测试。**干净克隆不应直接把全量 `unittest discover` 当作可运行的公开测试集。** 原始研究工作区具备这些输入时才运行全套；缺失输入不是允许用mock补齐的理由。
 
+## 打包当前 skill
+
+`python3 scripts/package_skill.py` 从固定文件清单构建 `deliverables/PhysWhen-skill.zip`；`--check` 检查现有 ZIP 与源码逐字一致，不改写文件。该检查不证明策略改善了阅读效果。
+
 ## 本地研究数据齐备后的重放
 
-以下输入不随Git仓库分发：`data/`、`experiments/`、`reports/`及历史归档。当前skill可以独立使用，但这些研究命令需要原工作区的实际源文件、标注和审查记录。
+下面保留的是历史阶段命令，读取旧名称的冻结快照，不用于构建当前 `physwhen`。以下输入不随Git仓库分发：`data/`、`experiments/`、`reports/`及历史归档。当前skill可以独立使用，但这些研究命令需要原工作区的实际源文件、标注和审查记录。
 
 ```bash
 python3 scripts/analyze_structure_corpus.py

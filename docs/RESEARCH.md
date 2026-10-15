@@ -25,9 +25,9 @@ PhysWhen 使用历史英文理论物理原创研究论文的成稿，分析读�
 
 历史组织方式 → 带来源位置的观察 → 适用条件与反例 → 候选写作操作 → 独立写作任务 → 人类阅读评估。
 
-例如，依赖图能帮助识别某项主张依赖哪些条件，但不能推出“所有条件必须在结果前出现”。v3允许结果先行、推导先行、按机制分支、将技术细节移入附录等路线，要求读者能找回关键条件和逻辑桥梁。
+例如，依赖图能帮助识别某项主张依赖哪些条件，但不能推出“所有条件必须在结果前出现”。PhysWhen允许结果先行、推导先行、按机制分支、将技术细节移入附录等路线，要求读者能找回关键条件和逻辑桥梁。
 
-目前skill中的操作是可执行的设计选择。其依据和例外见 [结构证据](../skills/physics-paper-style-v3/references/structure-evidence.md)、[局部证据](../skills/physics-paper-style-v3/references/local-evidence.md)，实际分母见 [profile.json](../skills/physics-paper-style-v3/profile.json)。来源索引记录论文版本、源哈希与位置；完整上下文只保存在本地研究目录。
+目前skill中的操作是可执行的设计选择。其依据和例外见 [结构证据](../skills/physwhen/references/structure-evidence.md)、[局部证据](../skills/physwhen/references/local-evidence.md)，实际分母见 [profile.json](../skills/physwhen/profile.json)。来源索引记录论文版本、源哈希与位置；完整上下文只保存在本地研究目录。
 
 ## 验证与限制
 

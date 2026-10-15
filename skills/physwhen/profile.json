@@ -1,6 +1,5 @@
 {
   "status": "candidate; no human readability benefit established",
-  "version": 3,
   "corpus_papers": 500,
   "discovery_papers": 400,
   "heldout_papers": 100,
@@ -236,5 +235,7 @@
       ],
       "support": "descriptive"
     }
-  }
+  },
+  "skill": "physwhen",
+  "update_policy": "single maintained skill; use the Git commit to identify exact contents"
 }

@@ -1,22 +1,32 @@
 # 使用 PhysWhen skill
 
-## 输入和输出
+## 一句话开始
 
-提供稿件或研究笔记时，说明目标读者、篇幅、投稿格式和可修改的范围。科学材料应包含研究问题、已有结果、支持它们的计算或证据，以及必要的条件。允许结构重组时明确说出；只改一段时说明不要扩写。
+安装后，附上稿件或笔记，说“请使用 physwhen 修改这篇论文”或“请使用 physwhen 根据这些笔记写论文”即可。保留科学内容、按任务选择整体或局部操作等要求已经写入skill，无需每次复制长提示词。
 
-默认返回你要求的正文或大纲。需要查看推理安排时，再要求输出问题、主张、证据和条件的对应关系。skill 不会以历史论文的平均句长或章节占比作为硬性配额。
+有现成稿件时，以原稿的篇幅和读者为默认；新写作根据材料推断合理范围。可以额外指定字数、读者、投稿格式或禁止改动的部分，但不要求填写固定清单。只有缺少关键科学内容时才需要补充说明；只有题目时先做明确标注的提纲或询问研究结果，不编造原创发现。
+
+默认返回所请求的正文或大纲。需要查看规划时，再要求问题、主张、证据和条件的对应关系。
+
+## 更新与旧安装迁移
+
+对外始终只有 `physwhen`，源码位于 `skills/physwhen/`，分发包是 `deliverables/PhysWhen-skill.zip`。`git pull --ff-only` 更新仓库；本地复制安装不会自动跟随仓库更新。更新时将旧安装移到skill发现目录之外留作备份，再把新的完整 `physwhen/` 文件夹复制进去，避免遗留已删除的资源。如果改过安装副本，先比较差异。
+
+曾安装 `physics-paper-style-v3` 等旧名称时，也先在宿主停用或移出发现目录，再安装 `physwhen`，避免同时出现两个入口。本次仓库变更不会自动改动任何全局安装。
+
+历史研究脚本、论文版本、数据协议和实验批次仍保留原编号，以便追溯；这些不是并行维护的产品版本。准确复现实验需用原冻结快照，不应把最新skill替换进去。
 
 ## 可选：大纲结构检查
 
 仓库提供一个合成示例，只用于演示接口，不代表真实物理结论或实验结果：
 
 ```bash
-python3 skills/physics-paper-style-v3/scripts/check_outline.py examples/outline.json
+python3 skills/physwhen/scripts/check_outline.py examples/outline.json
 ```
 
 成功时输出 `status: pass`。把示例替换为自己的大纲后，工具检查 ID 是否存在、已回答的问题是否指向主张、声明有支持的主张是否列出证据，以及主张和条件是否在章节安排中出现。
 
-它无法判断证据是否真的证明结论。不能把 `pass` 写成“物理正确”或“可读性已改善”。JSON 字段详见 [outline-contract.md](../skills/physics-paper-style-v3/references/outline-contract.md)。
+它无法判断证据是否真的证明结论。不能把 `pass` 写成“物理正确”或“可读性已改善”。JSON 字段详见 [outline-contract.md](../skills/physwhen/references/outline-contract.md)。
 
 ## 检查是否完整使用
 

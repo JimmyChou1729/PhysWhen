@@ -23,4 +23,4 @@ G1–G4 are engineering hypotheses derived from these observations and argument-
 
 Automatic corpus measurements only supply section/label/reference navigation and frozen D01–D06 distributions. They cannot extract logical support by themselves. The learned distinction is between presentation order and logical dependence: a preview may legitimately precede the support required to assess it.
 
-Independent source review and writing-task validation are documented in the project release report. Even successful execution does not demonstrate reader preference. Existing v1/v2 blind-study outputs remain frozen and cannot establish a v3 effect.
+Independent source review and writing-task validation are documented in the project release report. Even successful execution does not demonstrate reader preference. Earlier blind-study outputs remain frozen and cannot establish an effect for the currently maintained skill.

@@ -1,6 +1,6 @@
 # Evidence and operating limits
 
-This is the frozen local-evidence record underlying v2 operations, retained for v3. Its reference corpus had 210 usable historical English theoretical-physics papers. Only the 168 discovery papers supply reference distributions and rule-development evidence; 42 remain held out.
+This is the frozen local-evidence record underlying the earlier local operations, retained in PhysWhen. Its reference corpus had 210 usable historical English theoretical-physics papers. Only the 168 discovery papers supply reference distributions and rule-development evidence; 42 remain held out.
 
 ## What was actually examined
 
