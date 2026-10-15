@@ -35,6 +35,16 @@ For an unfamiliar organizational choice, consult [references/structure-evidence.
 
 Motivation connects the supplied problem to its question; setup makes needed variables and assumptions recoverable; derivation preserves the dependency; interpretation preserves scope. Mixed paragraphs are legitimate. The earlier local evidence and its separate denominators are summarized in [references/local-evidence.md](references/local-evidence.md).
 
+## Make terminology and sentences carry a definite meaning
+
+Prefer terms established in the supplied material or relevant physics literature. Do not coin technical-sounding labels, compound nouns, or synonyms merely for variety. Keep established terminology and notation consistent; unfamiliarity, hyphenation, or absence from this project's corpus is not evidence that a term is invalid.
+
+For a suspect expression, check its definition and use in the supplied material first. Consult relevant sources when needed and available; if its meaning remains unclear, flag that uncertainty rather than declaring it nonexistent, inventing a definition, or silently replacing it with a different physical concept. Preserve a genuinely new author-defined term with its definition and scope; make a new label only when it serves a distinct concept and is explicitly introduced. Explain necessary technical terms at first relevant use only to the extent the intended reader needs.
+
+Check the proposition, not just individual words: can the reader identify the physical object, the relation or operation, and the conditions that matter? Replace decorative noun clusters and vague verbs with the concrete relation supported by the supplied equation or argument. If no such relation is supported, identify the missing meaning separately instead of making a fluent scientific assertion. Do not strengthen association into causation, an approximation into equality, or a diagnostic into a mechanism while simplifying. Avoid synonym swapping, universal word bans, compulsory glossaries, and blanket removal of specialist vocabulary.
+
+This terminology check responds to a user-reported failure mode. It is an editorial design constraint, not a finding measured in the historical corpus or a demonstrated readability improvement.
+
 ## Preserve the scientific contract
 
 Preserve supplied equations, signs, units, numerical values, variable meanings, negations, necessary conditions and quantifier scope unless a scientific change is requested. Identify conflicting supplied statements rather than silently choosing one. Use authorized citations; do not invent novelty claims, literature gaps, results or source quotations. Author-presented support in an example is not independent validation of its physics.

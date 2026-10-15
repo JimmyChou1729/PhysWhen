@@ -237,5 +237,10 @@
     }
   },
   "skill": "physwhen",
-  "update_policy": "single maintained skill; use the Git commit to identify exact contents"
+  "update_policy": "single maintained skill; use the Git commit to identify exact contents",
+  "terminology_policy": {
+    "basis": "user-reported failure mode; editorial design constraint",
+    "historical_corpus_measurement": "not_performed",
+    "human_readability_effect": "not_established"
+  }
 }

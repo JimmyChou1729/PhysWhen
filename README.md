@@ -60,6 +60,7 @@ These extra instructions are optional. Full-paper organization, local editing, a
 | Revise a draft | Dependencies, branching cases, previews, development, and useful recaps |
 | Allocate detail | Which logical bridges belong in the main text and which details can be deferred |
 | Edit paragraphs | The purpose of equations, interpretation of results, and conditions attached to claims |
+| Clarify terminology | Established terms, defined new concepts, and sentences with a recoverable physical meaning |
 
 Scientific content remains authoritative. PhysWhen does not invent evidence, citations, novelty, or missing proofs. It is not an AI detector or a substitute for scientific review.
 
