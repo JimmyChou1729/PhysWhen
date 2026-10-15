@@ -1,5 +1,7 @@
 # PhysWhen
 
+> AI can code. AI can do math. Physics when?
+
 **An agent skill for clearer theoretical-physics papers—from the overall argument to the prose around an equation.**
 
 English | [简体中文](README.zh-CN.md)

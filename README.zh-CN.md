@@ -1,5 +1,7 @@
 # PhysWhen
 
+> AI can code. AI can do math. Physics when?
+
 **帮助 agent 写出更易读的英文理论物理论文，从整篇论证到公式前后的表达。**
 
 [English](README.md) | 简体中文
