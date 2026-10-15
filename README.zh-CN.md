@@ -30,6 +30,10 @@ fi
 
 在 skill 选择器中选择 `physwhen`；Codex CLI／IDE 也支持 `$physwhen`。未出现时重启客户端。发现路径见 [OpenAI 官方说明](https://learn.chatgpt.com/docs/build-skills)。其他兼容工具按其自身方式安装完整文件夹；本项目未逐一测试所有客户端。
 
+### 网页版 ChatGPT 与 Dot
+
+请通过宿主支持的账号插件导入入口使用[插件 ZIP](deliverables/PhysWhen-plugin.zip)，不要把单独的 skill ZIP 当作插件。两种包使用同一份 skill；插件只增加清单，不需要 MCP 服务器。是否可用仍取决于宿主和账号，打包成功不代表已经通过 ChatGPT 或 Dot 的实际调用验证。详见[宿主安装与验证说明](docs/HOSTS.md)。
+
 ## 如何使用
 
 参考用法：

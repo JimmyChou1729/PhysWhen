@@ -1,0 +1,28 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "physwhen",
+  "version": "0.1.0",
+  "description": "Evidence-based argument structuring for theoretical-physics writing",
+  "author": {"name": "JimmyChou1729"},
+  "homepage": "https://github.com/JimmyChou1729/PhysWhen",
+  "repository": "https://github.com/JimmyChou1729/PhysWhen",
+  "license": "MIT",
+  "keywords": ["physics", "academic-writing", "argument-structure"],
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "displayName": "PhysWhen",
+        "shortDescription": "Clearer physics writing",
+        "longDescription": "Write and revise English theoretical-physics papers from supplied drafts or research notes. Organize arguments and improve prose while preserving equations, results, and assumptions. Includes source-traceable references; does not detect AI authorship or claim proven readability gains.",
+        "developerName": "JimmyChou1729",
+        "category": "Productivity",
+        "capabilities": [],
+        "defaultPrompt": [
+          "Use PhysWhen to revise this paper.",
+          "Use PhysWhen to draft a paper from these research notes.",
+          "Use PhysWhen to improve this paragraph."
+        ]
+      }
+    }
+  }
+}

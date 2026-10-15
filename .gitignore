@@ -1,6 +1,7 @@
 # Default-deny root: new research data/artifacts require explicit review before tracking.
 /*
 !/.gitignore
+!/plugin.json
 !/LICENSE
 !/README.md
 !/README.zh-CN.md
@@ -31,6 +32,7 @@
 # Explicit transferable artifacts only.
 /deliverables/*
 !/deliverables/PhysWhen-skill.zip
+!/deliverables/PhysWhen-plugin.zip
 !/deliverables/PhysWhen-Blind-Test-03.html
 !/deliverables/PhysWhen-Blind-Test-03.zip
 !/deliverables/PhysWhen-03-阅读邀请.txt

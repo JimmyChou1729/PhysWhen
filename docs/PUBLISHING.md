@@ -36,3 +36,7 @@
 ## MIT 许可随包分发
 
 根目录 `LICENSE` 与 `skills/physwhen/LICENSE` 保持一致，打包校验会检查二者。skill ZIP 包含该许可；独立盲测 HTML 在源码注释中保留项目许可及 KaTeX 原许可。MIT 适用于本项目原创内容，不覆盖历史论文、完整语料或第三方权利。
+
+## 云端宿主包装
+
+`plugin.json` 和 `deliverables/PhysWhen-plugin.zip` 是同一skill的插件分发入口。源仓库公开不等于公共插件目录发布。账号插件保存仅用于个人/工作区安装验证；实际跨宿主调用状态见 [HOSTS.md](HOSTS.md)。内部插件发布号用于宿主识别，不能自动更新用户已上传的快照。

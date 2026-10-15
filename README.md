@@ -30,6 +30,10 @@ fi
 
 Select `physwhen` in your skill picker; Codex CLI and IDE also support `$physwhen`. If it does not appear, restart the client. See the [official skill documentation](https://learn.chatgpt.com/docs/build-skills) for discovery paths. Other compatible agents should receive the complete folder through their own installation mechanism; they have not all been tested here.
 
+### ChatGPT web and Dot
+
+Use the [plugin ZIP](deliverables/PhysWhen-plugin.zip) through a supported account-plugin import flow; the standalone skill ZIP is not a plugin. Both packages contain the same maintained skill. The plugin adds a portable manifest and needs no MCP server. Availability depends on the host and account; packaging alone does not establish a successful ChatGPT or Dot run. See [host setup and verification (Chinese)](docs/HOSTS.md).
+
 ## Usage
 
 Example requests:
