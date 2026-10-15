@@ -7,7 +7,8 @@ FILES = (
     'SKILL.md', 'profile.json', 'LICENSE',
     'references/structure-evidence.md', 'references/structure-source-anchors.jsonl',
     'references/local-evidence.md', 'references/local-source-anchors.jsonl',
-    'references/outline-contract.md', 'references/evidence-workflow.md', 'scripts/check_outline.py',
+    'references/outline-contract.md', 'references/evidence-workflow.md',
+    'references/organization.md', 'references/editing-operations.md', 'scripts/check_outline.py',
 )
 
 

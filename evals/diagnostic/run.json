@@ -1,0 +1,596 @@
+{
+  "schema": "physwhen.synthetic.writing-run.v1",
+  "source_status": "All case material and manuscripts are synthetic; none are research findings or user manuscripts.",
+  "baseline_commit": "a059a92e196679d6f0dc54dc8d02ba2ff18155ed",
+  "candidate_bundle_sha256": "448df85d4481c53aa73792ba1babc2a463f67c5c63f3dd9da400a2265ae7c5af",
+  "model_id": null,
+  "temperature": null,
+  "sampling_seed": null,
+  "source_access": "No external retrieval in any arm. Normal product retrieval policy remains unchanged.",
+  "human_participants": 0,
+  "records": [
+    {
+      "case_id": "H01",
+      "arm": "generic",
+      "first_draft": "In the synthetic detector test, the guarded configuration g collected more counts than the open configuration o during the driven stage: the mean collected counts per acquisition window satisfied C_g/C_o=1.4. This driven-stage quantity C is distinct from the amplitude fitted after the drive ended. For relaxation, time t was measured from the end of the drive, and each configuration was fitted separately with R_j(t)=A_j exp(-t/tau_j), where j=o or g. The open-configuration fit gave A_o=8 and tau_o=2 s, whereas the guarded-configuration fit gave A_g=4 and tau_g=5 s. Thus, the guarded configuration had a smaller initial relaxation amplitude and a longer relaxation time than the open configuration, despite its larger driven-stage count. These results compare different measurement stages; they provide no supplied test of stability, noise, or a microscopic explanation.",
+      "manuscript": "In the synthetic detector test, the guarded configuration g collected more counts than the open configuration o during the driven stage: the mean collected counts per acquisition window satisfied C_g/C_o=1.4. This driven-stage quantity C is distinct from the amplitude fitted after the drive ended. For relaxation, time t was measured from the end of the drive, and each configuration was fitted separately with R_j(t)=A_j exp(-t/tau_j), where j=o or g. The open-configuration fit gave A_o=8 and tau_o=2 s, whereas the guarded-configuration fit gave A_g=4 and tau_g=5 s. Thus, the guarded configuration had a smaller initial relaxation amplitude and a longer relaxation time than the open configuration, despite its larger driven-stage count. These results compare different measurement stages; they provide no supplied test of stability, noise, or a microscopic explanation.",
+      "checks_performed": [
+        "Checked configuration labels and explicit driven/relaxation-stage referents against S1–S2.",
+        "Checked the equation, fitted values, and comparison directions.",
+        "Checked that no stability, noise, or mechanism claim was added.",
+        "Checked the 100–180-word constraint."
+      ],
+      "review_hints": []
+    },
+    {
+      "case_id": "H01",
+      "arm": "baseline",
+      "first_draft": "The open configuration o and the guarded configuration g were compared separately during the driven and relaxation stages. During the driven stage, the mean collected count per acquisition window satisfied C_g/C_o=1.4, so the guarded configuration collected more counts than the open configuration. After the drive ended, each residual trace was fitted by R_j(t)=A_j exp(-t/tau_j), where t is time since the drive ended and j denotes o or g. The open-configuration fit gave A_o=8 and tau_o=2 s, whereas the guarded-configuration fit gave A_g=4 and tau_g=5 s. Thus, the guarded relaxation trace had a smaller fitted initial amplitude and a longer fitted decay time than the open relaxation trace. These amplitudes describe separate relaxation traces; they are not the driven-stage count C. The supplied comparison does not assess stability, noise, or a microscopic explanation.",
+      "manuscript": "The open configuration o and the guarded configuration g were compared separately during the driven and relaxation stages. During the driven stage, the mean collected count per acquisition window satisfied C_g/C_o=1.4, so the guarded configuration collected more counts than the open configuration. After the drive ended, each residual trace was fitted by R_j(t)=A_j exp(-t/tau_j), where t is time since the drive ended and j denotes o or g. The open-configuration fit gave A_o=8 and tau_o=2 s, whereas the guarded-configuration fit gave A_g=4 and tau_g=5 s. Thus, the guarded relaxation trace had a smaller fitted initial amplitude and a longer fitted decay time than the open relaxation trace. These amplitudes describe separate relaxation traces; they are not the driven-stage count C. The supplied comparison does not assess stability, noise, or a microscopic explanation.",
+      "checks_performed": [
+        "Compared driven-stage count ratio and configuration labels with S1.",
+        "Compared relaxation equation, amplitudes, times, and stage referents with S2.",
+        "Checked that no stability, noise, or mechanism claim was added.",
+        "Checked the single-paragraph form and 100–180-word limit."
+      ],
+      "review_hints": []
+    },
+    {
+      "case_id": "H01",
+      "arm": "candidate",
+      "first_draft": "The open configuration (o) and guarded configuration (g) were compared separately during the driven and relaxation stages. During the driven stage, the mean collected count per acquisition window satisfied C_g/C_o=1.4, so the guarded configuration had the larger driven-stage count. After the drive ended, each configuration was fitted using a separate residual-signal trace, R_j(t)=A_j exp(-t/tau_j), where j=o or g and t measures time since the end of the drive. The fitted relaxation-stage amplitudes were A_o=8 and A_g=4, whereas the fitted time constants were tau_o=2 s and tau_g=5 s. Thus, the guarded configuration had the smaller initial relaxation amplitude and the longer relaxation time constant. The driven-stage count C and the relaxation amplitude A describe different quantities and should not be interchanged. These comparisons do not establish stability, noise performance, or a microscopic explanation.",
+      "manuscript": "The open configuration (o) and guarded configuration (g) were compared separately during the driven and relaxation stages. During the driven stage, the mean collected count per acquisition window satisfied C_g/C_o=1.4, so the guarded configuration had the larger driven-stage count. After the drive ended, each configuration was fitted using a separate residual-signal trace, R_j(t)=A_j exp(-t/tau_j), where j=o or g and t measures time since the end of the drive. The fitted relaxation-stage amplitudes were A_o=8 and A_g=4, whereas the fitted time constants were tau_o=2 s and tau_g=5 s. Thus, the guarded configuration had the smaller initial relaxation amplitude and the longer relaxation time constant. The driven-stage count C and the relaxation amplitude A describe different quantities and should not be interchanged. These comparisons do not establish stability, noise performance, or a microscopic explanation.",
+      "checks_performed": [
+        "Compared configuration and stage referents with S1–S3.",
+        "Checked the ratio, fit equation, amplitudes, time constants and units against the supplied material.",
+        "Checked separation of count, amplitude and time constant, and absence of unsupported mechanisms.",
+        "Checked paragraph length: 132 whitespace-delimited words."
+      ],
+      "review_hints": []
+    },
+    {
+      "case_id": "H02",
+      "arm": "generic",
+      "first_draft": "We compared settings A and B using command latency and thermal persistence, which measure different intervals. Command latency is the interval from an issued command to the first readout: d_A=11 ms for setting A and d_B=9 ms for setting B. Thus, setting B reached its first readout 2 ms sooner than setting A. Thermal persistence is a separately fitted duration after readout: T_A=50 ms and T_B=70 ms. Setting B therefore had a longer fitted thermal persistence than setting A, by 20 ms. The shorter command latency of setting B and its longer thermal persistence describe two distinct measurements. The supplied record contains only these four times and does not establish that either interval causes or explains the other.",
+      "manuscript": "We compared settings A and B using command latency and thermal persistence, which measure different intervals. Command latency is the interval from an issued command to the first readout: d_A=11 ms for setting A and d_B=9 ms for setting B. Thus, setting B reached its first readout 2 ms sooner than setting A. Thermal persistence is a separately fitted duration after readout: T_A=50 ms and T_B=70 ms. Setting B therefore had a longer fitted thermal persistence than setting A, by 20 ms. The shorter command latency of setting B and its longer thermal persistence describe two distinct measurements. The supplied record contains only these four times and does not establish that either interval causes or explains the other.",
+      "checks_performed": [
+        "Checked all four times and their setting labels against S1.",
+        "Checked that pre-readout latency and post-readout persistence remain distinct.",
+        "Checked the 2 ms and 20 ms differences and removal of unsupported causal claims.",
+        "Checked clear referents and the 100–180-word constraint."
+      ],
+      "review_hints": []
+    },
+    {
+      "case_id": "H02",
+      "arm": "baseline",
+      "first_draft": "We compared settings A and B using two distinct time measurements. Command latency measures the interval from an issued command to the first readout: d_A=11 ms for setting A and d_B=9 ms for setting B. Setting B therefore had the shorter command latency. Thermal persistence is a separately fitted duration after readout, with T_A=50 ms for setting A and T_B=70 ms for setting B. Setting B therefore had the longer thermal persistence. The shorter interval before the first readout and the longer fitted duration after readout describe different aspects of setting B relative to setting A. Neither measurement provides a cause for the other. The supplied record supports these two comparisons but does not establish a causal relation between command latency and thermal persistence.",
+      "manuscript": "We compared settings A and B using two distinct time measurements. Command latency measures the interval from an issued command to the first readout: d_A=11 ms for setting A and d_B=9 ms for setting B. Setting B therefore had the shorter command latency. Thermal persistence is a separately fitted duration after readout, with T_A=50 ms for setting A and T_B=70 ms for setting B. Setting B therefore had the longer thermal persistence. The shorter interval before the first readout and the longer fitted duration after readout describe different aspects of setting B relative to setting A. Neither measurement provides a cause for the other. The supplied record supports these two comparisons but does not establish a causal relation between command latency and thermal persistence.",
+      "checks_performed": [
+        "Checked each setting’s latency and persistence values against S1.",
+        "Checked the distinct command-to-readout and after-readout time definitions.",
+        "Checked explicit referents and removal of the unsupported causal interpretation.",
+        "Checked the single-paragraph form and 100–180-word limit."
+      ],
+      "review_hints": []
+    },
+    {
+      "case_id": "H02",
+      "arm": "candidate",
+      "first_draft": "We compared settings A and B using two distinct time measurements. Command latency measures the interval from an issued command to the first readout: d_A=11 ms for setting A and d_B=9 ms for setting B. Setting B therefore had the shorter command latency. Thermal persistence is a separately fitted duration after readout, with T_A=50 ms for setting A and T_B=70 ms for setting B. Setting B thus had the longer fitted thermal persistence. The shorter latency of setting B describes when its first readout occurred, whereas its longer persistence describes the fitted duration after readout. These four values establish the two comparisons for the supplied settings, but they do not establish a causal relation between command latency and thermal persistence.",
+      "manuscript": "We compared settings A and B using two distinct time measurements. Command latency measures the interval from an issued command to the first readout: d_A=11 ms for setting A and d_B=9 ms for setting B. Setting B therefore had the shorter command latency. Thermal persistence is a separately fitted duration after readout, with T_A=50 ms for setting A and T_B=70 ms for setting B. Setting B thus had the longer fitted thermal persistence. The shorter latency of setting B describes when its first readout occurred, whereas its longer persistence describes the fitted duration after readout. These four values establish the two comparisons for the supplied settings, but they do not establish a causal relation between command latency and thermal persistence.",
+      "checks_performed": [
+        "Compared both definitions and all four times with S1.",
+        "Checked that every numerical comparison names its setting and measurement.",
+        "Checked that the repaired prose does not infer causation or conflate latency and persistence.",
+        "Checked paragraph length: 120 whitespace-delimited words."
+      ],
+      "review_hints": []
+    },
+    {
+      "case_id": "H03",
+      "arm": "generic",
+      "first_draft": "We evaluated the normalized response using R=(I-B)/G, with B=2 and G=4 fixed for both calibration checks. For the first reading, I=14 gave R=3. For the second reading, I=18 gave R=4. In this comparison, the second response is therefore larger than the first by one response unit. Here, the terms first and second refer to the two input readings, and the same background and gain enter both calculations. These checks establish the reported responses at the two supplied readings. They do not establish the detector response at every input, because no additional readings or calibration model beyond the stated definition were supplied.",
+      "manuscript": "We evaluated the normalized response using R=(I-B)/G, with B=2 and G=4 fixed for both calibration checks. For the first reading, I=14 gave R=3. For the second reading, I=18 gave R=4. In this comparison, the second response is therefore larger than the first by one response unit. Here, the terms first and second refer to the two input readings, and the same background and gain enter both calculations. These checks establish the reported responses at the two supplied readings. They do not establish the detector response at every input, because no additional readings or calibration model beyond the stated definition were supplied.",
+      "checks_performed": [
+        "Checked (14-2)/4=3 and (18-2)/4=4 and the one-unit response difference.",
+        "Checked fixed B and G and the references to first and second readings.",
+        "Checked that conclusions are limited to the two supplied checks.",
+        "Checked verbatim retention of the supplied paragraph and the 100–180-word constraint."
+      ],
+      "review_hints": []
+    },
+    {
+      "case_id": "H03",
+      "arm": "baseline",
+      "first_draft": "We evaluated the normalized response using R=(I-B)/G, with B=2 and G=4 fixed for both calibration checks. For the first reading, I=14 gave R=3. For the second reading, I=18 gave R=4. In this comparison, the second response is therefore larger than the first by one response unit. Here, the terms first and second refer to the two input readings, and the same background and gain enter both calculations. These checks establish the reported responses at the two supplied readings. They do not establish the detector response at every input, because no additional readings or calibration model beyond the stated definition were supplied.",
+      "manuscript": "We evaluated the normalized response using R=(I-B)/G, with B=2 and G=4 fixed for both calibration checks. For the first reading, I=14 gave R=3. For the second reading, I=18 gave R=4. In this comparison, the second response is therefore larger than the first by one response unit. Here, the terms first and second refer to the two input readings, and the same background and gain enter both calculations. These checks establish the reported responses at the two supplied readings. They do not establish the detector response at every input, because no additional readings or calibration model beyond the stated definition were supplied.",
+      "checks_performed": [
+        "Compared the response definition, fixed background/gain, and both input/output pairs with S1.",
+        "Checked that first and second consistently refer to the two input readings.",
+        "Checked preservation of the two-reading scope and exact retention of the existing paragraph.",
+        "Checked the single-paragraph form and 100–180-word limit."
+      ],
+      "review_hints": []
+    },
+    {
+      "case_id": "H03",
+      "arm": "candidate",
+      "first_draft": "We evaluated the normalized response using R=(I-B)/G, with B=2 and G=4 fixed for both calibration checks. For the first reading, I=14 gave R=3. For the second reading, I=18 gave R=4. In this comparison, the second response is therefore larger than the first by one response unit. Here, the terms first and second refer to the two input readings, and the same background and gain enter both calculations. These checks establish the reported responses at the two supplied readings. They do not establish the detector response at every input, because no additional readings or calibration model beyond the stated definition were supplied.",
+      "manuscript": "We evaluated the normalized response using R=(I-B)/G, with B=2 and G=4 fixed for both calibration checks. For the first reading, I=14 gave R=3. For the second reading, I=18 gave R=4. In this comparison, the second response is therefore larger than the first by one response unit. Here, the terms first and second refer to the two input readings, and the same background and gain enter both calculations. These checks establish the reported responses at the two supplied readings. They do not establish the detector response at every input, because no additional readings or calibration model beyond the stated definition were supplied.",
+      "checks_performed": [
+        "Compared the response definition, common background/gain and both input-response pairs with S1.",
+        "Checked that first and second have explicit input-reading referents.",
+        "Checked that the paragraph limits its conclusion to the two calibration checks.",
+        "Confirmed exact retention of the supplied S2 paragraph and length of 101 whitespace-delimited words."
+      ],
+      "review_hints": []
+    },
+    {
+      "case_id": "H04",
+      "arm": "generic",
+      "first_draft": "In this synthetic measurement protocol, the hinge interval is the elapsed time from a command to the first locked sign assignment, defined by Delta=t_lock-t_cmd. The sign of the scalar readout q remains deliberately unassigned before locking. The locking time t_lock is the first sampled time at which |q|>=0.20. Thus, hinge interval names a specific operational quantity in this protocol; it is not identified with a relaxation time, response lifetime, or statistical uncertainty. Twelve traces were observed until 8 ms after the command. Nine locked by 4 ms, and the median of their nine measured hinge intervals was Delta_med=2.5 ms. The remaining three traces did not lock within the observed 8 ms window and have no measured t_lock in this record. No median over all twelve traces was calculated.",
+      "manuscript": "In this synthetic measurement protocol, the hinge interval is the elapsed time from a command to the first locked sign assignment, defined by Delta=t_lock-t_cmd. The sign of the scalar readout q remains deliberately unassigned before locking. The locking time t_lock is the first sampled time at which |q|>=0.20. Thus, hinge interval names a specific operational quantity in this protocol; it is not identified with a relaxation time, response lifetime, or statistical uncertainty. Twelve traces were observed until 8 ms after the command. Nine locked by 4 ms, and the median of their nine measured hinge intervals was Delta_med=2.5 ms. The remaining three traces did not lock within the observed 8 ms window and have no measured t_lock in this record. No median over all twelve traces was calculated.",
+      "checks_performed": [
+        "Checked preservation of hinge interval, Delta=t_lock-t_cmd, and the first sampled |q|>=0.20 condition.",
+        "Checked the deliberately unassigned pre-lock sign.",
+        "Checked twelve observed traces, nine locks by 4 ms, three without measured t_lock, and the nine-trace 2.5 ms median.",
+        "Checked the 8 ms observation window, absence of an all-trace median, and the 100–180-word constraint."
+      ],
+      "review_hints": []
+    },
+    {
+      "case_id": "H04",
+      "arm": "baseline",
+      "first_draft": "In this protocol, the hinge interval is the elapsed time from a command to the first locked sign assignment, defined by Delta=t_lock-t_cmd. The sign of the scalar readout q remains deliberately unassigned before locking; t_lock is the first sampled time at which |q|>=0.20. This local term describes that operational interval and is not identified with a relaxation time, response lifetime, or statistical uncertainty. Twelve traces were observed until 8 ms after the command. Nine traces locked by 4 ms, and their measured hinge intervals had a median of Delta_med=2.5 ms. The remaining three traces did not lock within the observed 8 ms window and have no measured t_lock in this record. They do not contribute to the reported median, which was calculated only from the nine measured intervals; no median for all twelve traces was calculated.",
+      "manuscript": "In this protocol, the hinge interval is the elapsed time from a command to the first locked sign assignment, defined by Delta=t_lock-t_cmd. The sign of the scalar readout q remains deliberately unassigned before locking; t_lock is the first sampled time at which |q|>=0.20. This local term describes that operational interval and is not identified with a relaxation time, response lifetime, or statistical uncertainty. Twelve traces were observed until 8 ms after the command. Nine traces locked by 4 ms, and their measured hinge intervals had a median of Delta_med=2.5 ms. The remaining three traces did not lock within the observed 8 ms window and have no measured t_lock in this record. They do not contribute to the reported median, which was calculated only from the nine measured intervals; no median for all twelve traces was calculated.",
+      "checks_performed": [
+        "Checked preservation of hinge interval, its defining equation, and the sampled threshold.",
+        "Checked that sign assignment remains unassigned before locking.",
+        "Compared observation windows, trace counts, and the measured-only median with S2.",
+        "Checked absence of an all-trace median or substituted physical term and checked the word limit."
+      ],
+      "review_hints": []
+    },
+    {
+      "case_id": "H04",
+      "arm": "candidate",
+      "first_draft": "In this protocol, the hinge interval is the elapsed time from a command to the first locked sign assignment, defined by Delta=t_lock-t_cmd. The sign of the scalar readout q remains deliberately unassigned before locking. A sign locks at the first sampled time for which |q|>=0.20. Twelve traces were followed until 8 ms after the command. Nine traces locked by 4 ms, and the median hinge interval among those nine measured intervals was Delta_med=2.5 ms. The remaining three traces did not lock within the observed 8 ms window, so this record provides no measured t_lock for them. They do not contribute to the reported median, and no median including all twelve traces was calculated. The term hinge interval is local to this operational definition; it has not been identified with a relaxation time, response lifetime, or statistical uncertainty.",
+      "manuscript": "In this protocol, the hinge interval is the elapsed time from a command to the first locked sign assignment, defined by Delta=t_lock-t_cmd. The sign of the scalar readout q remains deliberately unassigned before locking. A sign locks at the first sampled time for which |q|>=0.20. Twelve traces were followed until 8 ms after the command. Nine traces locked by 4 ms, and the median hinge interval among those nine measured intervals was Delta_med=2.5 ms. The remaining three traces did not lock within the observed 8 ms window, so this record provides no measured t_lock for them. They do not contribute to the reported median, and no median including all twelve traces was calculated. The term hinge interval is local to this operational definition; it has not been identified with a relaxation time, response lifetime, or statistical uncertainty.",
+      "checks_performed": [
+        "Checked retention of hinge interval and its command-to-lock definition.",
+        "Checked the unassigned pre-lock sign and first-sampled-time threshold criterion.",
+        "Checked the 12-trace observation window, nine measured intervals, three unmeasured lock times and median denominator.",
+        "Checked the absence of substitute physical interpretations and paragraph length of 137 whitespace-delimited words."
+      ],
+      "review_hints": []
+    },
+    {
+      "case_id": "H05",
+      "arm": "generic",
+      "first_draft": "Selection performance in the supplied synthetic batch is described by three count ratios with different denominators. Efficiency is eta=kept/detected, yield is Y=kept/launched, and detection fraction is d=detected/launched. Every kept event is detected. Of 1000 launched events, 400 were detected and 300 were kept, giving eta=300/400=0.75, Y=300/1000=0.30, and d=400/1000=0.40. The efficiency denominator includes the 100 detected events that were not kept. The notebook's 300/400 ratio therefore represents an efficiency of 75%, not a yield of 75%. These quantities refer to counts within the same batch and do not measure energy efficiency. The record supplies neither repeated batches nor uncertainty estimates. Without a specified denominator and comparison, the notebook's description of the retained fraction as high does not provide a supported performance comparison.",
+      "manuscript": "Selection performance in the supplied synthetic batch is described by three count ratios with different denominators. Efficiency is eta=kept/detected, yield is Y=kept/launched, and detection fraction is d=detected/launched. Every kept event is detected. Of 1000 launched events, 400 were detected and 300 were kept, giving eta=300/400=0.75, Y=300/1000=0.30, and d=400/1000=0.40. The efficiency denominator includes the 100 detected events that were not kept. The notebook's 300/400 ratio therefore represents an efficiency of 75%, not a yield of 75%. These quantities refer to counts within the same batch and do not measure energy efficiency. The record supplies neither repeated batches nor uncertainty estimates. Without a specified denominator and comparison, the notebook's description of the retained fraction as high does not provide a supported performance comparison.",
+      "checks_performed": [
+        "Checked the three ratio definitions and the relationship that every kept event is detected.",
+        "Checked all counts, ratios, and inclusion of the 100 unkept detected events in the efficiency denominator.",
+        "Checked resolution of the 75% label and unsupported high-performance wording.",
+        "Checked that no energy-efficiency, uncertainty, or comparative result was invented and that the text is within 100–180 words."
+      ],
+      "review_hints": [
+        {
+          "phase": "first_draft",
+          "kind": "literal_not_found",
+          "text": "eta=0.75"
+        },
+        {
+          "phase": "first_draft",
+          "kind": "literal_not_found",
+          "text": "Y=0.30"
+        },
+        {
+          "phase": "first_draft",
+          "kind": "literal_not_found",
+          "text": "d=0.40"
+        },
+        {
+          "phase": "manuscript",
+          "kind": "literal_not_found",
+          "text": "eta=0.75"
+        },
+        {
+          "phase": "manuscript",
+          "kind": "literal_not_found",
+          "text": "Y=0.30"
+        },
+        {
+          "phase": "manuscript",
+          "kind": "literal_not_found",
+          "text": "d=0.40"
+        }
+      ]
+    },
+    {
+      "case_id": "H05",
+      "arm": "baseline",
+      "first_draft": "For the recorded batch, efficiency, yield, and detection fraction use different denominators. Efficiency is eta=kept/detected, yield is Y=kept/launched, and detection fraction is d=detected/launched. Every kept event is detected, but detected events need not be kept. Of the 1000 launched events, 400 were detected and 300 were kept, giving eta=300/400=0.75, Y=300/1000=0.30, and d=400/1000=0.40. The 100 detected events that were not kept remain in the denominator of efficiency. Accordingly, the notebook’s 75 percent figure denotes efficiency, while the yield is 30 percent. A retained fraction must identify whether it refers to detected or launched events; the supplied batch alone provides no comparison supporting the label high. These ratios describe event counts, not energy efficiency. No repeated batches or uncertainty estimates were supplied.",
+      "manuscript": "For the recorded batch, efficiency, yield, and detection fraction use different denominators. Efficiency is eta=kept/detected, yield is Y=kept/launched, and detection fraction is d=detected/launched. Every kept event is detected, but detected events need not be kept. Of the 1000 launched events, 400 were detected and 300 were kept, giving eta=300/400=0.75, Y=300/1000=0.30, and d=400/1000=0.40. The 100 detected events that were not kept remain in the denominator of efficiency. Accordingly, the notebook’s 75 percent figure denotes efficiency, while the yield is 30 percent. A retained fraction must identify whether it refers to detected or launched events; the supplied batch alone provides no comparison supporting the label high. These ratios describe event counts, not energy efficiency. No repeated batches or uncertainty estimates were supplied.",
+      "checks_performed": [
+        "Compared the three named ratios and their denominators with S1.",
+        "Compared counts, supplied ratio values, and the 100 non-kept detected events with S2.",
+        "Checked resolution of the informal yield/high shorthand without adding a performance comparison.",
+        "Checked count rather than energy meaning, single-batch scope, and the word limit."
+      ],
+      "review_hints": [
+        {
+          "phase": "first_draft",
+          "kind": "literal_not_found",
+          "text": "eta=0.75"
+        },
+        {
+          "phase": "first_draft",
+          "kind": "literal_not_found",
+          "text": "Y=0.30"
+        },
+        {
+          "phase": "first_draft",
+          "kind": "literal_not_found",
+          "text": "d=0.40"
+        },
+        {
+          "phase": "manuscript",
+          "kind": "literal_not_found",
+          "text": "eta=0.75"
+        },
+        {
+          "phase": "manuscript",
+          "kind": "literal_not_found",
+          "text": "Y=0.30"
+        },
+        {
+          "phase": "manuscript",
+          "kind": "literal_not_found",
+          "text": "d=0.40"
+        }
+      ]
+    },
+    {
+      "case_id": "H05",
+      "arm": "candidate",
+      "first_draft": "The selection procedure classified 1000 launched events as detected or undetected; 400 were detected and 300 were kept. Every kept event was detected. Efficiency is defined as eta=kept/detected, giving eta=300/400=0.75. The 100 detected events that were not kept remain in this denominator. Yield uses all launched events as its denominator: Y=kept/launched=300/1000=0.30. Detection fraction is d=detected/launched=400/1000=0.40. Thus, the 75% figure describes efficiency, whereas the yield is 30%; the two values answer different counting questions. These three ratios refer to the same recorded batch and do not measure energy efficiency. No repeated batches, uncertainty estimates, or comparison procedure were supplied, so the reported fractions provide no defined basis for describing the retained fraction as high.",
+      "manuscript": "The selection procedure classified 1000 launched events as detected or undetected; 400 were detected and 300 were kept. Every kept event was detected. Efficiency is defined as eta=kept/detected, giving eta=300/400=0.75. The 100 detected events that were not kept remain in this denominator. Yield uses all launched events as its denominator: Y=kept/launched=300/1000=0.30. Detection fraction is d=detected/launched=400/1000=0.40. Thus, the 75% figure describes efficiency, whereas the yield is 30%; the two values answer different counting questions. These three ratios refer to the same recorded batch and do not measure energy efficiency. No repeated batches, uncertainty estimates, or comparison procedure were supplied, so the reported fractions provide no defined basis for describing the retained fraction as high.",
+      "checks_performed": [
+        "Compared efficiency, yield and detection-fraction definitions and their denominators with S1.",
+        "Checked all counts, ratios and the inclusion of the 100 detected-but-not-kept events.",
+        "Checked resolution of the 75% shorthand and unsupported high comparison without adding measurements.",
+        "Checked paragraph length: 113 whitespace-delimited words."
+      ],
+      "review_hints": [
+        {
+          "phase": "first_draft",
+          "kind": "literal_not_found",
+          "text": "eta=0.75"
+        },
+        {
+          "phase": "first_draft",
+          "kind": "literal_not_found",
+          "text": "Y=0.30"
+        },
+        {
+          "phase": "first_draft",
+          "kind": "literal_not_found",
+          "text": "d=0.40"
+        },
+        {
+          "phase": "manuscript",
+          "kind": "literal_not_found",
+          "text": "eta=0.75"
+        },
+        {
+          "phase": "manuscript",
+          "kind": "literal_not_found",
+          "text": "Y=0.30"
+        },
+        {
+          "phase": "manuscript",
+          "kind": "literal_not_found",
+          "text": "d=0.40"
+        }
+      ]
+    },
+    {
+      "case_id": "H06",
+      "arm": "generic",
+      "first_draft": "The model transfer function is F(x)=0.8x+0.2 for dimensionless x, where the gain is 0.8 and the offset is 0.2. At the reference input x=1, the output is F(1)=1.0. This agreement between output and input at the reference point does not make the gain equal to one: gain denotes the multiplier of x, whereas offset denotes the additive constant. Both terms contribute to the reported reference output. The reference check consequently verifies the stated value at x=1 while leaving the distinction between the two coefficients intact. It should not be described as a measurement of unit gain or as evidence that the offset vanishes.",
+      "manuscript": "The model transfer function is F(x)=0.8x+0.2 for dimensionless x, where the gain is 0.8 and the offset is 0.2. At the reference input x=1, the output is F(1)=1.0. This agreement between output and input at the reference point does not make the gain equal to one: gain denotes the multiplier of x, whereas offset denotes the additive constant. Both terms contribute to the reported reference output. The reference check consequently verifies the stated value at x=1 while leaving the distinction between the two coefficients intact. It should not be described as a measurement of unit gain or as evidence that the offset vanishes.",
+      "checks_performed": [
+        "Checked F(x)=0.8x+0.2, gain 0.8, offset 0.2, and dimensionless x.",
+        "Checked F(1)=1.0 and that equality at x=1 is not interpreted as unit gain or zero offset.",
+        "Checked verbatim retention and supported interpretation of the supplied paragraph.",
+        "Checked the 100–180-word constraint."
+      ],
+      "review_hints": []
+    },
+    {
+      "case_id": "H06",
+      "arm": "baseline",
+      "first_draft": "The model transfer function is F(x)=0.8x+0.2 for dimensionless x, where the gain is 0.8 and the offset is 0.2. At the reference input x=1, the output is F(1)=1.0. This agreement between output and input at the reference point does not make the gain equal to one: gain denotes the multiplier of x, whereas offset denotes the additive constant. Both terms contribute to the reported reference output. The reference check consequently verifies the stated value at x=1 while leaving the distinction between the two coefficients intact. It should not be described as a measurement of unit gain or as evidence that the offset vanishes.",
+      "manuscript": "The model transfer function is F(x)=0.8x+0.2 for dimensionless x, where the gain is 0.8 and the offset is 0.2. At the reference input x=1, the output is F(1)=1.0. This agreement between output and input at the reference point does not make the gain equal to one: gain denotes the multiplier of x, whereas offset denotes the additive constant. Both terms contribute to the reported reference output. The reference check consequently verifies the stated value at x=1 while leaving the distinction between the two coefficients intact. It should not be described as a measurement of unit gain or as evidence that the offset vanishes.",
+      "checks_performed": [
+        "Compared the transfer function, dimensionless input, and reference output with S1.",
+        "Checked use of gain as multiplier and offset as additive constant.",
+        "Checked that the reference equality does not imply unit gain or vanishing offset and that the paragraph is retained exactly.",
+        "Checked the single-paragraph form and 100–180-word limit."
+      ],
+      "review_hints": []
+    },
+    {
+      "case_id": "H06",
+      "arm": "candidate",
+      "first_draft": "The model transfer function is F(x)=0.8x+0.2 for dimensionless x, where the gain is 0.8 and the offset is 0.2. At the reference input x=1, the output is F(1)=1.0. This agreement between output and input at the reference point does not make the gain equal to one: gain denotes the multiplier of x, whereas offset denotes the additive constant. Both terms contribute to the reported reference output. The reference check consequently verifies the stated value at x=1 while leaving the distinction between the two coefficients intact. It should not be described as a measurement of unit gain or as evidence that the offset vanishes.",
+      "manuscript": "The model transfer function is F(x)=0.8x+0.2 for dimensionless x, where the gain is 0.8 and the offset is 0.2. At the reference input x=1, the output is F(1)=1.0. This agreement between output and input at the reference point does not make the gain equal to one: gain denotes the multiplier of x, whereas offset denotes the additive constant. Both terms contribute to the reported reference output. The reference check consequently verifies the stated value at x=1 while leaving the distinction between the two coefficients intact. It should not be described as a measurement of unit gain or as evidence that the offset vanishes.",
+      "checks_performed": [
+        "Compared the transfer function and dimensionless input with S1.",
+        "Checked gain as multiplier, offset as additive constant, and the reference value F(1)=1.0.",
+        "Checked that agreement at one input is not interpreted as unit gain or zero offset.",
+        "Confirmed exact retention of S2 and length of 103 whitespace-delimited words."
+      ],
+      "review_hints": []
+    },
+    {
+      "case_id": "H07",
+      "arm": "generic",
+      "first_draft": "In a deterministic toy transport calculation for the narrow-cell geometry, increasing the coupling from k=0 to k=0.3 reduced the dimensionless contrast from C_0=0.10 to C_1=0.08. Both calculations used gate parameter G=1 and detuning delta=0. For this pair, the relative reduction was (C_0-C_1)/C_0=0.20, or 20%; both contrasts remained finite and positive. The result is a comparison of two synthetic model outputs, without stochastic trials or an estimate of numerical uncertainty. Only the narrow cell and these two coupling values were evaluated; no other geometry, gate parameter, or detuning was tested. The recorded difference therefore establishes the contrast reduction for this pair of calculations. It does not identify a microscopic mechanism or guarantee suppression in untested configurations, and it is not a measured result from an experimental detector.",
+      "manuscript": "In a deterministic toy transport calculation for the narrow-cell geometry, increasing the coupling from k=0 to k=0.3 reduced the dimensionless contrast from C_0=0.10 to C_1=0.08. Both calculations used gate parameter G=1 and detuning delta=0. For this pair, the relative reduction was (C_0-C_1)/C_0=0.20, or 20%; both contrasts remained finite and positive. The result is a comparison of two synthetic model outputs, without stochastic trials or an estimate of numerical uncertainty. Only the narrow cell and these two coupling values were evaluated; no other geometry, gate parameter, or detuning was tested. The recorded difference therefore establishes the contrast reduction for this pair of calculations. It does not identify a microscopic mechanism or guarantee suppression in untested configurations, and it is not a measured result from an experimental device.",
+      "checks_performed": [
+        "Checked the narrow-cell geometry, G=1, delta=0, and both coupling values.",
+        "Checked C_0=0.10, C_1=0.08, the 0.20 relative reduction, and finite positive contrasts.",
+        "Checked limits to one deterministic pair, absence of mechanism and general guarantees, and source-supported device wording.",
+        "Checked the 100–180-word constraint."
+      ],
+      "review_hints": []
+    },
+    {
+      "case_id": "H07",
+      "arm": "baseline",
+      "first_draft": "In one paired deterministic toy transport calculation for the narrow cell, the gate parameter was fixed at G=1 and detuning at delta=0. The control calculation, with coupling k=0, gave a dimensionless contrast of C_0=0.10. The comparison calculation, with k=0.3 under the same conditions, gave C_1=0.08. For this pair, the relative reduction, defined as (C_0-C_1)/C_0, was 0.20, or 20%. Both contrasts remained finite and positive. The result reports the recorded difference between these two model outputs; it does not identify a microscopic mechanism. No stochastic trials or numerical uncertainty estimates were supplied, and no other gate, detuning, geometry, or coupling value was evaluated. The observed reduction is therefore confined to this paired calculation and does not establish suppression for every configuration or performance of an experimental device.",
+      "manuscript": "In one paired deterministic toy transport calculation for the narrow cell, the gate parameter was fixed at G=1 and detuning at delta=0. The control calculation, with coupling k=0, gave a dimensionless contrast of C_0=0.10. The comparison calculation, with k=0.3 under the same conditions, gave C_1=0.08. For this pair, the relative reduction, defined as (C_0-C_1)/C_0, was 0.20, or 20%. Both contrasts remained finite and positive. The result reports the recorded difference between these two model outputs; it does not identify a microscopic mechanism. No stochastic trials or numerical uncertainty estimates were supplied, and no other gate, detuning, geometry, or coupling value was evaluated. The observed reduction is therefore confined to this paired calculation and does not establish suppression for every configuration or performance of an experimental device.",
+      "checks_performed": [
+        "Compared geometry, gate, detuning, coupling labels, and contrasts with S1.",
+        "Checked retention of the supplied relative-reduction definition and value.",
+        "Checked the one-pair deterministic scope and absence of a mechanism, universal guarantee, or experimental claim.",
+        "Checked the uncertainty/trial limits and 100–180-word length."
+      ],
+      "review_hints": []
+    },
+    {
+      "case_id": "H07",
+      "arm": "candidate",
+      "first_draft": "For the narrow-cell geometry, a deterministic toy transport calculation compared two coupling values with G=1 and delta=0 held fixed. The control calculation at k=0 gave dimensionless contrast C_0=0.10, whereas the comparison at k=0.3 gave C_1=0.08. The relative reduction, defined as (C_0-C_1)/C_0, was 0.20, or 20%, for this pair. Both contrasts remained finite and positive. This lower calculated contrast is the demonstrated difference under the supplied conditions. The record contains one paired calculation, with no stochastic trials or estimated numerical uncertainty, and evaluates no other gate, detuning, geometry, or coupling value. It therefore does not identify a microscopic mechanism or establish suppression for every configuration. These results describe the supplied model comparison and do not constitute a measurement of an experimental device.",
+      "manuscript": "For the geometry named the narrow cell, a deterministic toy transport calculation compared two coupling values with G=1 and delta=0 held fixed. The control calculation at k=0 gave dimensionless contrast C_0=0.10, whereas the comparison at k=0.3 gave C_1=0.08. The relative reduction, defined as (C_0-C_1)/C_0, was 0.20, or 20%, for this pair. Both contrasts remained finite and positive. This lower calculated contrast is the demonstrated difference under the supplied conditions. The record contains one paired calculation, with no stochastic trials or estimated numerical uncertainty, and evaluates no other gate, detuning, geometry, or coupling value. It therefore does not identify a microscopic mechanism or establish suppression for every configuration. These results describe the supplied model comparison and do not constitute a measurement of an experimental device.",
+      "checks_performed": [
+        "Compared both coupling values, fixed G and delta, contrasts and relative-reduction definition with S1.",
+        "Checked the finite-positive contrasts, deterministic paired scope and absence of uncertainty estimates.",
+        "Checked that the prose does not add mechanism, universal suppression or experimental-device claims; retained the supplied geometry name exactly.",
+        "Checked final paragraph length: 124 whitespace-delimited words."
+      ],
+      "review_hints": []
+    },
+    {
+      "case_id": "H08",
+      "arm": "generic",
+      "first_draft": "The supplied synthetic record contains four runs, N1 through N4, each with four sampled bins. A bin-level crossing is defined by z>2, and a run-level event means at least one crossing within that run. Runs N1, N2, and N3 each had a run-level event; N4 had none. The observed event fraction was therefore 3/4. This fraction counts runs with at least one crossing, rather than the total number of crossings across bins. The crossing counts within N1, N2, and N3 were not supplied, so the record does not show that each of those runs crossed exactly once or that their bin patterns were identical. The fraction describes only these four runs. It does not specify a population probability, determine the probability for a future run, or establish a causal mechanism.",
+      "manuscript": "The supplied synthetic record contains four runs, N1 through N4, each with four sampled bins. A bin-level crossing is defined by z>2, and a run-level event means at least one crossing within that run. Runs N1, N2, and N3 each had a run-level event; N4 had none. The observed event fraction was therefore 3/4. This fraction counts runs with at least one crossing, rather than the total number of crossings across bins. The crossing counts within N1, N2, and N3 were not supplied, so the record does not show that each of those runs crossed exactly once or that their bin patterns were identical. The fraction describes only these four runs. It does not specify a population probability, determine the probability for a future run, or establish a causal mechanism.",
+      "checks_performed": [
+        "Checked four runs with four sampled bins each and the strict z>2 criterion.",
+        "Checked exact retention of at least one in the run-level event definition.",
+        "Checked N1–N3 event status, N4 non-event status, and the observed fraction 3/4.",
+        "Checked that unspecified crossing counts, future probability, and causal mechanism were not asserted, and checked the 100–180-word constraint."
+      ],
+      "review_hints": []
+    },
+    {
+      "case_id": "H08",
+      "arm": "baseline",
+      "first_draft": "Each of the four runs, N1 through N4, contained four sampled bins. A crossing was defined by z>2 in a bin, and a run-level event was defined as at least one crossing. Runs N1, N2, and N3 each had a run-level event, whereas N4 had none. The observed event fraction was therefore 3/4 for this four-run record. The numbers of crossings within N1, N2, and N3 were not supplied, so the record does not show that each of those runs crossed exactly once or that their bin patterns were identical. The result summarizes the occurrence of at least one crossing within each run. This finite event fraction does not specify a population probability for future runs, and the record does not establish a causal mechanism for the crossings.",
+      "manuscript": "Each of the four runs, N1 through N4, contained four sampled bins. A crossing was defined by z>2 in a bin, and a run-level event was defined as at least one crossing. Runs N1, N2, and N3 each had a run-level event, whereas N4 had none. The observed event fraction was therefore 3/4 for this four-run record. The numbers of crossings within N1, N2, and N3 were not supplied, so the record does not show that each of those runs crossed exactly once or that their bin patterns were identical. The result summarizes the occurrence of at least one crossing within each run. This finite event fraction does not specify a population probability for future runs, and the record does not establish a causal mechanism for the crossings.",
+      "checks_performed": [
+        "Compared the z>2 crossing criterion and four-bin run structure with S1.",
+        "Checked exact preservation of at least one in the run-level event definition.",
+        "Compared event membership and 3/4 with S1; checked that no within-run crossing counts were invented.",
+        "Checked removal of future-probability and common-mechanism claims and checked the word limit."
+      ],
+      "review_hints": []
+    },
+    {
+      "case_id": "H08",
+      "arm": "candidate",
+      "first_draft": "The supplied record contains four runs, N1 through N4, with four sampled bins in each run. A crossing means z>2 in a bin, while a run-level event means at least one crossing within that run. N1, N2, and N3 each had a run-level event; N4 had none. The observed run-level event fraction was therefore 3/4. The numbers of crossings within N1, N2, and N3 were not supplied, so an event in one of these runs does not establish that exactly one crossing occurred. The run-level summary also does not specify their internal bin patterns. This finite record establishes the reported event fraction for these four runs, but it does not determine a population probability, predict the event in any future run, or establish a causal mechanism.",
+      "manuscript": "The supplied record contains four runs, N1 through N4, with four sampled bins in each run. A crossing means z>2 in a bin, while a run-level event means at least one crossing within that run. N1, N2, and N3 each had a run-level event; N4 had none. The observed run-level event fraction was therefore 3/4. The numbers of crossings within N1, N2, and N3 were not supplied, so an event in one of these runs does not establish that exactly one crossing occurred. The run-level summary also does not specify their internal bin patterns. This finite record establishes the reported event fraction for these four runs, but it does not determine a population probability, predict the event in any future run, or establish a causal mechanism.",
+      "checks_performed": [
+        "Checked z>2 as the bin-level crossing criterion and retained at least one in the run-level definition.",
+        "Compared all four run identities, four-bin counts and the 3/4 event fraction with S1.",
+        "Checked that unspecified within-run crossing counts remain unspecified.",
+        "Checked removal of uniform-response, future-probability and causal claims; length 126 whitespace-delimited words."
+      ],
+      "review_hints": []
+    },
+    {
+      "case_id": "H09",
+      "arm": "generic",
+      "first_draft": "For the two separate bookkeeping steps, the signed energy change is defined by DeltaE=E_final-E_initial, with energies expressed in the arbitrary unit u. Step A starts at 5.2 u and ends at 4.7 u, giving DeltaE_A=-0.5 u. Its final energy is therefore lower than its initial energy by 0.5 u. Step B starts at 3.1 u and ends at 3.3 u, giving DeltaE_B=+0.2 u; its final energy is higher by 0.2 u. The magnitudes alone do not specify the directions of these changes; the signs must be retained under the stated convention. Steps A and B are separate examples, not successive stages of one trajectory. No temperature, heat flow, or physical mechanism is supplied, so these values do not establish cooling or heating through a common thermal process.",
+      "manuscript": "For the two separate bookkeeping steps, the signed energy change is defined by DeltaE=E_final-E_initial, with energies expressed in the arbitrary unit u. Step A starts at 5.2 u and ends at 4.7 u, giving DeltaE_A=-0.5 u. Its final energy is therefore lower than its initial energy by 0.5 u. Step B starts at 3.1 u and ends at 3.3 u, giving DeltaE_B=+0.2 u; its final energy is higher by 0.2 u. The magnitudes alone do not specify the directions of these changes; the signs must be retained under the stated convention. Steps A and B are separate examples, not successive stages of one trajectory. No temperature, heat flow, or physical mechanism is supplied, so these values do not establish cooling or heating through a common thermal process.",
+      "checks_performed": [
+        "Checked DeltaE=E_final-E_initial and retention of the arbitrary unit u.",
+        "Checked 4.7-5.2=-0.5 for A and 3.3-3.1=+0.2 for B, including signs and direction wording.",
+        "Checked that A and B remain separate steps rather than a continuous trajectory.",
+        "Checked absence of unsupported temperature, heat-flow, or mechanism claims and checked the 100–180-word constraint."
+      ],
+      "review_hints": []
+    },
+    {
+      "case_id": "H09",
+      "arm": "baseline",
+      "first_draft": "The signed energy change is defined by DeltaE=E_final-E_initial, with energies expressed in the arbitrary unit u. In step A, the energy changed from 5.2 u to 4.7 u, giving DeltaE_A=-0.5 u. The negative sign means that the final energy was lower than the initial energy. In step B, the energy changed from 3.1 u to 3.3 u, giving DeltaE_B=+0.2 u; the final energy was higher than the initial energy. The magnitudes 0.5 u and 0.2 u alone do not retain these directions. Steps A and B are separate bookkeeping examples, not successive stages of one trajectory. The supplied values describe their signed energy differences but specify no temperature, heat flow, or mechanism, so they do not establish cooling or heating through a shared thermal process.",
+      "manuscript": "The signed energy change is defined by DeltaE=E_final-E_initial, with energies expressed in the arbitrary unit u. In step A, the energy changed from 5.2 u to 4.7 u, giving DeltaE_A=-0.5 u. The negative sign means that the final energy was lower than the initial energy. In step B, the energy changed from 3.1 u to 3.3 u, giving DeltaE_B=+0.2 u; the final energy was higher than the initial energy. The magnitudes 0.5 u and 0.2 u alone do not retain these directions. Steps A and B are separate bookkeeping examples, not successive stages of one trajectory. The supplied values describe their signed energy differences but specify no temperature, heat flow, or mechanism, so they do not establish cooling or heating through a shared thermal process.",
+      "checks_performed": [
+        "Compared DeltaE=E_final-E_initial and all four energies with S1.",
+        "Checked retention of -0.5 u for A and +0.2 u for B with consistent directional interpretations.",
+        "Checked that separate steps are not combined into a trajectory and that unsupported thermal claims are removed.",
+        "Checked the single-paragraph form and 100–180-word limit."
+      ],
+      "review_hints": []
+    },
+    {
+      "case_id": "H09",
+      "arm": "candidate",
+      "first_draft": "The signed energy change is defined as DeltaE=E_final-E_initial, with energies expressed in the arbitrary unit u. Step A starts at 5.2 u and ends at 4.7 u, giving DeltaE_A=-0.5 u. Step B starts at 3.1 u and ends at 3.3 u, giving DeltaE_B=+0.2 u. Under this convention, the negative change in A means that its final energy is lower, while the positive change in B means that its final energy is higher. The magnitudes alone do not retain this direction information. A and B are separate bookkeeping steps, not successive stages of one trajectory. No temperature, heat flow, or mechanism is specified, so these energy values do not establish cooling, heating, or a shared thermal process.",
+      "manuscript": "The signed energy change is defined as DeltaE=E_final-E_initial, with energies expressed in the arbitrary unit u. Step A starts at 5.2 u and ends at 4.7 u, giving DeltaE_A=-0.5 u. Step B starts at 3.1 u and ends at 3.3 u, giving DeltaE_B=+0.2 u. Under this convention, the negative change in A means that its final energy is lower, while the positive change in B means that its final energy is higher. The magnitudes alone do not retain this direction information. A and B are separate bookkeeping steps, not successive stages of one trajectory. No temperature, heat flow, or mechanism is specified, so these energy values do not establish cooling, heating, or a shared thermal process.",
+      "checks_performed": [
+        "Compared the DeltaE convention, all four energies, both signed changes and unit u with S1.",
+        "Checked that A decreases energy and B increases energy under the stated convention.",
+        "Checked that the two bookkeeping steps remain separate and no thermal interpretation is introduced.",
+        "Checked paragraph length: 116 whitespace-delimited words."
+      ],
+      "review_hints": []
+    },
+    {
+      "case_id": "H10",
+      "arm": "generic",
+      "first_draft": "To test whether the correction rule matters when the baseline changes during collection, methods C and F processed the same stored frames within each of two synthetic 20-frame tests. Method C subtracts a separate baseline estimate for each frame, whereas method F subtracts one fixed baseline for the whole sequence. In the test with a baseline rising from 0 to 4 counts, the absolute reconstruction errors were e_C=3% and e_F=12%. In the test with a constant baseline of 0 counts, both errors were 2%. Here, error is the absolute deviation from the supplied synthetic reference divided by that reference. Thus, C had lower error on the supplied drifting sequence and equal error on the constant sequence. No acquisition-speed measurement, uncertainty estimate, or test on new data was supplied. These two tests do not establish which method is best under every form of drift.",
+      "manuscript": "To test whether the correction rule matters when the baseline changes during collection, methods C and F processed the same stored frames within each of two synthetic 20-frame tests. Method C subtracts a separate baseline estimate for each frame, whereas method F subtracts one fixed baseline for the whole sequence. In the test with a baseline rising from 0 to 4 counts, the absolute reconstruction errors were e_C=3% and e_F=12%. In the test with a constant baseline of 0 counts, both errors were 2%. Here, error is the absolute deviation from the supplied synthetic reference divided by that reference. Thus, C had lower error on the supplied drifting sequence and equal error on the constant sequence. No acquisition-speed measurement, uncertainty estimate, or test on new data was supplied. These two tests do not establish which method is best under every form of drift.",
+      "checks_performed": [
+        "Checked both method definitions, 20 frames per test, and identical frames for C and F within each test.",
+        "Checked the 0-to-4-count drift and constant 0-count baseline.",
+        "Checked all errors and the supplied reference-normalized error definition.",
+        "Checked the question-to-result organization, limits to two sequences, and the 100–180-word constraint."
+      ],
+      "review_hints": [
+        {
+          "phase": "first_draft",
+          "kind": "literal_not_found",
+          "text": "20 frames"
+        },
+        {
+          "phase": "manuscript",
+          "kind": "literal_not_found",
+          "text": "20 frames"
+        }
+      ]
+    },
+    {
+      "case_id": "H10",
+      "arm": "baseline",
+      "first_draft": "To test whether the correction rule matters when a baseline changes during collection, we compared methods C and F on two synthetic sequences of 20 frames each. C subtracts a baseline estimate separately for each frame, whereas F subtracts one fixed baseline for the whole sequence. Within each test, both methods processed exactly the same stored frames, generated for this comparison. Error is the absolute deviation from the supplied synthetic reference, divided by that reference. In the test with a baseline rising from 0 to 4 counts, C gave e_C=3% and F gave e_F=12%. In the constant-baseline test, with 0 counts throughout, both methods gave an absolute reconstruction error of 2%. Thus, C had lower error on the supplied drifting-baseline sequence, while the methods agreed on the constant-baseline sequence. No acquisition-speed measurement, uncertainty estimate, or test on new data was supplied; these two sequences do not establish which method is best under every form of drift.",
+      "manuscript": "To test whether the correction rule matters when a baseline changes during collection, we compared methods C and F on two synthetic sequences of 20 frames each. C subtracts a baseline estimate separately for each frame, whereas F subtracts one fixed baseline for the whole sequence. Within each test, both methods processed exactly the same stored frames, generated for this comparison. Error is the absolute deviation from the supplied synthetic reference, divided by that reference. In the test with a baseline rising from 0 to 4 counts, C gave e_C=3% and F gave e_F=12%. In the constant-baseline test, with 0 counts throughout, both methods gave an absolute reconstruction error of 2%. Thus, C had lower error on the supplied drifting-baseline sequence, while both methods had the same reported error on the constant-baseline sequence. No acquisition-speed measurement, uncertainty estimate, or test on new data was supplied; these two sequences do not establish which method is best under every form of drift.",
+      "checks_performed": [
+        "Compared C/F correction rules, shared stored frames, 20-frame counts, and both baseline tests with S2.",
+        "Compared the error definition and all supplied percentages with S1.",
+        "Replaced broad agreement wording with equality of reported error to avoid implying identical reconstructions.",
+        "Checked the question-to-test-to-result route, evidence limits, and 100–180-word length."
+      ],
+      "review_hints": []
+    },
+    {
+      "case_id": "H10",
+      "arm": "candidate",
+      "first_draft": "We tested whether the baseline correction rule matters when the baseline changes during collection. Method C subtracts a baseline estimate separately for each frame, whereas method F subtracts one fixed baseline for the sequence. Each test contained 20 stored frames generated for this comparison, and both methods processed exactly the same frames within each test. In the drifting-baseline test, the baseline rose from 0 to 4 counts; in the constant-baseline test, it remained at 0 counts. Reconstruction error was defined as the absolute deviation from the supplied synthetic reference divided by that reference. With the drifting baseline, the errors were e_C=3% and e_F=12%; with the constant baseline, both methods gave 2%. Method C therefore had lower error on the supplied drift sequence. No acquisition-speed measurement, uncertainty estimate, or test on new data was supplied. The comparison supports this result on these two sequences without establishing a best method for every form of drift.",
+      "manuscript": "We tested whether the baseline correction rule matters when the baseline changes during collection. Method C subtracts a baseline estimate separately for each frame, whereas method F subtracts one fixed baseline for the sequence. Each test contained 20 stored frames generated for this comparison, and both methods processed exactly the same frames within each test. In the drifting-baseline test, the baseline rose from 0 to 4 counts; in the constant-baseline test, it remained at 0 counts. Reconstruction error was defined as the absolute deviation from the supplied synthetic reference divided by that reference. With the drifting baseline, the errors were e_C=3% and e_F=12%; with the constant baseline, both methods gave 2%. Method C therefore had lower error on the supplied drift sequence. No acquisition-speed measurement, uncertainty estimate, or test on new data was supplied. The comparison supports this result on these two sequences without establishing a best method for every form of drift.",
+      "checks_performed": [
+        "Mapped the unordered question, method, shared-test, result and scope notes into the paragraph sequence.",
+        "Checked both correction rules, 20 frames per test, same-frame comparison and both baseline histories.",
+        "Compared the error definition and all three reported error values with S1.",
+        "Checked limits on speed, uncertainty, new data and general drift performance; length 153 whitespace-delimited words."
+      ],
+      "review_hints": [
+        {
+          "phase": "first_draft",
+          "kind": "literal_not_found",
+          "text": "20 frames"
+        },
+        {
+          "phase": "manuscript",
+          "kind": "literal_not_found",
+          "text": "20 frames"
+        }
+      ]
+    },
+    {
+      "case_id": "H11",
+      "arm": "generic",
+      "first_draft": "First, measure the detector baseline with the shutter closed; the supplied synthetic record gives b=7 counts. Second, open the shutter and collect one pulse, recording a total of T=20 counts. The baseline-subtracted pulse is defined by P=T-b, giving P=13 counts for this collection. Third, after collecting the pulse, measure the detector again with the shutter closed; the supplied check gives b_check=7 counts. The initial baseline measurement and final check are separate operations, with the open-shutter pulse collection between them. The final check agrees with the initial baseline at the reported count precision. This agreement concerns the two recorded baseline measurements. No additional pulses, uncertainty estimate, time-resolved drift record, or calibration from counts to energy was supplied.",
+      "manuscript": "First, measure the detector baseline with the shutter closed; the supplied synthetic record gives b=7 counts. Second, open the shutter and collect one pulse, recording a total of T=20 counts. The baseline-subtracted pulse is defined by P=T-b, giving P=13 counts for this collection. Third, after collecting the pulse, measure the detector again with the shutter closed; the supplied check gives b_check=7 counts. The initial baseline measurement and final check are separate operations, with the open-shutter pulse collection between them. The final check agrees with the initial baseline at the reported count precision. This agreement concerns the two recorded baseline measurements. No additional pulses, uncertainty estimate, time-resolved drift record, or calibration from counts to energy was supplied.",
+      "checks_performed": [
+        "Checked initial closed-shutter baseline, open-shutter collection, and subsequent closed-shutter check in that order.",
+        "Checked exact inclusion of with the shutter closed at both relevant measurements.",
+        "Checked b=7, T=20, P=T-b=13, and b_check=7 counts.",
+        "Checked the precision-qualified baseline agreement, absence of invented pulses or energy calibration, and the 100–180-word constraint."
+      ],
+      "review_hints": []
+    },
+    {
+      "case_id": "H11",
+      "arm": "baseline",
+      "first_draft": "First, measure the detector baseline with the shutter closed; the supplied measurement gives b=7 counts. Second, open the shutter and collect one pulse, recording a total of T=20 counts. Define the baseline-subtracted pulse as P=T-b, which gives P=13 counts for this collection. Third, after pulse collection, measure the detector again with the shutter closed; this separate check gives b_check=7 counts. The initial baseline measurement and the final check are distinct operations separated by the open-shutter collection. The final check agrees with the initial baseline at the reported count precision. This record contains one collected pulse and the two baseline checks. It supplies no uncertainty estimate, time-resolved drift record, or calibration converting counts to energy.",
+      "manuscript": "First, measure the detector baseline with the shutter closed; the supplied measurement gives b=7 counts. Second, open the shutter and collect one pulse, recording a total of T=20 counts. Define the baseline-subtracted pulse as P=T-b, which gives P=13 counts for this collection. Third, after pulse collection, measure the detector again with the shutter closed; this separate check gives b_check=7 counts. The initial baseline measurement and the final check are distinct operations separated by the open-shutter collection. The final check agrees with the initial baseline at the reported count precision. This record contains one collected pulse and the two baseline checks. It supplies no uncertainty estimate, time-resolved drift record, or calibration converting counts to energy.",
+      "checks_performed": [
+        "Compared the first/second/third operation order and all count values with S1.",
+        "Checked that with the shutter closed appears explicitly at both distinct baseline measurements.",
+        "Checked preservation of P=T-b, the one-pulse result, and the count-precision qualification.",
+        "Checked absence of continuous-stability or energy-calibration claims and checked the word limit."
+      ],
+      "review_hints": []
+    },
+    {
+      "case_id": "H11",
+      "arm": "candidate",
+      "first_draft": "First, we measured the detector baseline with the shutter closed, obtaining b=7 counts. Second, we opened the shutter and collected one pulse, recording a total of T=20 counts. The baseline-subtracted pulse was defined by P=T-b, giving P=13 counts. Third, after pulse collection, we measured the detector again with the shutter closed, obtaining b_check=7 counts. The initial baseline and final check were distinct measurements separated by the open-shutter pulse collection. The final check agreed with the initial baseline at the reported count precision. These two baseline readings do not provide a time-resolved drift record. Only one pulse was reported, and no uncertainty estimate or calibration from counts to energy was supplied.",
+      "manuscript": "First, we measured the detector baseline with the shutter closed, obtaining b=7 counts. Second, we opened the shutter and collected one pulse, recording a total of T=20 counts. The baseline-subtracted pulse was defined by P=T-b, giving P=13 counts. Third, after pulse collection, we measured the detector again with the shutter closed, obtaining b_check=7 counts. The initial baseline and final check were distinct measurements separated by the open-shutter pulse collection. The final check agreed with the initial baseline at the reported count precision. These two baseline readings do not provide a time-resolved drift record. Only one pulse was reported, and no uncertainty estimate or calibration from counts to energy was supplied.",
+      "checks_performed": [
+        "Checked the ordered baseline, pulse collection and final-check operations against S1.",
+        "Confirmed with the shutter closed appears explicitly at both relevant measurements.",
+        "Compared b=7 counts, T=20 counts, P=T-b=13 counts and b_check=7 counts with the supplied record.",
+        "Checked count-precision agreement and absence of drift/energy/uncertainty additions; length 110 whitespace-delimited words."
+      ],
+      "review_hints": []
+    },
+    {
+      "case_id": "H12",
+      "arm": "generic",
+      "first_draft": "We compared uniform and adaptive stepping on three test cases, using an acceptance tolerance of epsilon=10^-3 relative to the supplied reference solutions. Both solvers met this tolerance in every case. The uniform solver used 200 steps per case, whereas the adaptive solver used 120, 150, and 180 steps, respectively. Adaptive stepping therefore required fewer steps on each of these tests while satisfying the same acceptance criterion. This comparison concerns step counts and reference-solution agreement. Because elapsed runtime was not measured, it does not establish a speed improvement. The three supplied cases also leave performance on other problems untested, so the result is limited to this benchmark.",
+      "manuscript": "We compared uniform and adaptive stepping on three test cases, using an acceptance tolerance of epsilon=10^-3 relative to the supplied reference solutions. Both solvers met this tolerance in every case. The uniform solver used 200 steps per case, whereas the adaptive solver used 120, 150, and 180 steps, respectively. Adaptive stepping therefore required fewer steps on each of these tests while satisfying the same acceptance criterion. This comparison concerns step counts and reference-solution agreement. Because elapsed runtime was not measured, it does not establish a speed improvement. The three supplied cases also leave performance on other problems untested, so the result is limited to this benchmark.",
+      "checks_performed": [
+        "Checked epsilon=10^-3 relative to the supplied references and that both solvers pass all three cases.",
+        "Checked 200 uniform steps per case and adaptive counts 120, 150, and 180.",
+        "Checked distinction between step counts and unmeasured runtime and limits to the three tests.",
+        "Checked verbatim retention, usable organization, and the 100–180-word constraint."
+      ],
+      "review_hints": []
+    },
+    {
+      "case_id": "H12",
+      "arm": "baseline",
+      "first_draft": "We compared uniform and adaptive stepping on three test cases, using an acceptance tolerance of epsilon=10^-3 relative to the supplied reference solutions. Both solvers met this tolerance in every case. The uniform solver used 200 steps per case, whereas the adaptive solver used 120, 150, and 180 steps, respectively. Adaptive stepping therefore required fewer steps on each of these tests while satisfying the same acceptance criterion. This comparison concerns step counts and reference-solution agreement. Because elapsed runtime was not measured, it does not establish a speed improvement. The three supplied cases also leave performance on other problems untested, so the result is limited to this benchmark.",
+      "manuscript": "We compared uniform and adaptive stepping on three test cases, using an acceptance tolerance of epsilon=10^-3 relative to the supplied reference solutions. Both solvers met this tolerance in every case. The uniform solver used 200 steps per case, whereas the adaptive solver used 120, 150, and 180 steps, respectively. Adaptive stepping therefore required fewer steps on each of these tests while satisfying the same acceptance criterion. This comparison concerns step counts and reference-solution agreement. Because elapsed runtime was not measured, it does not establish a speed improvement. The three supplied cases also leave performance on other problems untested, so the result is limited to this benchmark.",
+      "checks_performed": [
+        "Compared the tolerance, three passing cases, and all uniform/adaptive step counts with S1.",
+        "Checked the distinction between fewer steps and unmeasured elapsed runtime.",
+        "Checked the existing comparison-to-limit organization and exact retention of the paragraph.",
+        "Checked the three-case scope and 100–180-word length."
+      ],
+      "review_hints": []
+    },
+    {
+      "case_id": "H12",
+      "arm": "candidate",
+      "first_draft": "We compared uniform and adaptive stepping on three test cases, using an acceptance tolerance of epsilon=10^-3 relative to the supplied reference solutions. Both solvers met this tolerance in every case. The uniform solver used 200 steps per case, whereas the adaptive solver used 120, 150, and 180 steps, respectively. Adaptive stepping therefore required fewer steps on each of these tests while satisfying the same acceptance criterion. This comparison concerns step counts and reference-solution agreement. Because elapsed runtime was not measured, it does not establish a speed improvement. The three supplied cases also leave performance on other problems untested, so the result is limited to this benchmark.",
+      "manuscript": "We compared uniform and adaptive stepping on three test cases, using an acceptance tolerance of epsilon=10^-3 relative to the supplied reference solutions. Both solvers met this tolerance in every case. The uniform solver used 200 steps per case, whereas the adaptive solver used 120, 150, and 180 steps, respectively. Adaptive stepping therefore required fewer steps on each of these tests while satisfying the same acceptance criterion. This comparison concerns step counts and reference-solution agreement. Because elapsed runtime was not measured, it does not establish a speed improvement. The three supplied cases also leave performance on other problems untested, so the result is limited to this benchmark.",
+      "checks_performed": [
+        "Compared tolerance, reference-solution scope and both solvers passing all three cases with S1.",
+        "Checked all uniform/adaptive step counts and the fewer-steps comparison.",
+        "Checked that step count is not interpreted as measured elapsed-time speed and other problems remain untested.",
+        "Confirmed usable existing organization, exact retention of S2 and length of 106 whitespace-delimited words."
+      ],
+      "review_hints": []
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "schema": "physwhen.diagnostic.protocol.v1",
+  "baseline_commit": "a059a92e196679d6f0dc54dc8d02ba2ff18155ed",
+  "origin": "synthetic controlled editorial tasks; not historical corpus observations or human feedback",
+  "families": ["coherence", "terminology", "fidelity", "organization"],
+  "development_cases": 12,
+  "sealed_cases": 12,
+  "arms": ["generic", "baseline", "candidate"],
+  "conditions": "Same case instruction, scientific material, source access, audience and maximum length across arms. Retrieval disabled for this controlled test and disclosed; product default retrieval remains mandatory.",
+  "generic_prompt": "Act as a careful scientific editor and writer. Make the passage clear for the stated reader. Choose a sensible argument order; make references and transitions unambiguous; use precise terminology and remove empty phrasing. Preserve equations, definitions, conditions, quantifier scope, numerical results and citation meanings. Do not invent claims, proofs, references or mechanisms. For a revision, distinguish editorial changes from scientific corrections and report concerns separately; do not apply unauthorized scientific corrections. Keep already useful passages and do not force every input into a fixed structure. For drafting use only supplied material. Inspect the finished text for fidelity, clarity and the user's constraints. Return the manuscript and a short separate note about changes, source limitations and unresolved questions.",
+  "generation": "Independent fresh agent context per arm, inherited actual model configuration; no external paid API. Exact model ID, temperature and seed unavailable and must be recorded as unavailable. One initial draft and one checked final per case, retained; no preference-driven selection.",
+  "review": "Mask arm identity and randomize aliases/order before independent rubric-based model screening. Report case-level issues with evidence. Model screen is not a human understanding result; ordinal clarity is exploratory. Invalid scientific-preservation outputs cannot be declared readability winners.",
+  "scope": "Pilot only:12 independent sealed briefs,6draft/6edit; no statistical sufficiency or corpus-based causal claim. Evaluate editor operation package vs strong generic baseline, not exclusive contribution of historical observations. Live retrieval and human comprehension are later separate studies.",
+  "human_readability_effect": "not_established"
+}

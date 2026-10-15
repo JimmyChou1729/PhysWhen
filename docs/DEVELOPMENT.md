@@ -57,3 +57,7 @@ python3 -m physstyle summarize-feedback
 ## 训练导出
 
 `python3 -m physstyle export-training --config configs/smoke.json` 是本地许可门控的导出接口，要求真实数据、许可审查和分组记录。未经核查的许可不自动放行，heldout不能进入训练集。本项目没有启动权重微调或购买算力。
+
+## 诊断案例与公平比较
+
+[评测说明](../evals/README.md)记录合成开发/封存案例、强通用提示词、旧版与候选版比较，以及输出和判词的哈希校验。`scripts/writing_eval.py`只做导出、导入、匿名评审包和描述性统计，不调用模型、不推断科学真伪。大纲检查器对错误顶层类型返回结构化失败；通过仍只表示引用/记录完整。

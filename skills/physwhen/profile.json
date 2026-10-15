@@ -254,5 +254,16 @@
     "whole_paper_revision": "structural assessment required; apply justified editorial reorganization before polishing",
     "basis": "user clarification; design constraint",
     "human_readability_effect": "not_established"
+  },
+  "editorial_operations_policy": {
+    "operations": [
+      "O1 referent",
+      "O2 paragraph relation",
+      "O3 term identity",
+      "O4 collocation/proposition",
+      "O5 supplied-step explanation"
+    ],
+    "examples": "synthetic; source observations remain separate",
+    "human_readability_effect": "not_established"
   }
 }

@@ -8,6 +8,7 @@
 !/THIRD_PARTY_NOTICES.md
 !/docs/
 !/examples/
+!/evals/
 !/physstyle/
 !/scripts/
 !/tests/
@@ -15,6 +16,23 @@
 !/skills/
 !/reader/
 !/deliverables/
+
+# Reviewed synthetic diagnostics only; keep raw studies and future files private by default.
+/evals/*
+!/evals/README.md
+!/evals/diagnostic/
+/evals/diagnostic/*
+!/evals/diagnostic/development.jsonl
+!/evals/diagnostic/development-rubric.jsonl
+!/evals/diagnostic/check.jsonl
+!/evals/diagnostic/check-rubric.jsonl
+!/evals/diagnostic/protocol.json
+!/evals/diagnostic/baseline.json
+!/evals/diagnostic/candidate-freeze.json
+!/evals/diagnostic/run.json
+!/evals/diagnostic/model-screen.json
+!/evals/diagnostic/boundary-audit.json
+!/evals/diagnostic/RESULTS.md
 
 # Only the current, reviewed portable skill; legacy experiments stay local.
 /skills/*

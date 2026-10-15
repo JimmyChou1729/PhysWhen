@@ -84,6 +84,10 @@ The skill uses four organizational operations and three local prose operations, 
 
 The [cosmology blind test](deliverables/PhysWhen-Blind-Test-03.html) presents three pairs of paper-style texts and collects one overall preference per pair. Download the HTML and open it in a desktop browser. Responses are exported as JSON and returned to the organizer; there is no automatic upload. It is a frozen study, not automatically regenerated whenever the skill changes.
 
+## Diagnostic operations and evaluation
+
+The skill includes triggered operations for paragraph connections, referents, terminology, and sentence meaning, with synthetic repair and leave-unchanged examples. A separate [diagnostic suite](evals/README.md) compares it with the frozen skill and strong generic editing instructions on fixed supplied material. [Pilot results](evals/diagnostic/RESULTS.md) cover 12 cases and 36 final passages; the model-only difference arose in one case and does not establish a stable or human comprehension benefit.
+
 ## Development
 
 Using the skill does not require Python. The optional checker and research tools require Python 3.10+ and use the standard library.

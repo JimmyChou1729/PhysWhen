@@ -1,0 +1,961 @@
+{
+  "schema": "physwhen.synthetic.boundary-audit.v1",
+  "reviewed": 15,
+  "fact_checks": 120,
+  "selection": "H03/H06/H09/H12 boundary and organization cases, plus H05 selected after the first reviewer identified a terminology ambiguity; second reviewer was not given that conclusion.",
+  "agreement_with_primary": {
+    "fidelity": 15,
+    "clarity": 15,
+    "defect_resolution": 13,
+    "unnecessary_rewrite": 15
+  },
+  "judgments": [
+    {
+      "case_id": "H03",
+      "review_packet_id": "b00dc6b54a436b767748ff853aa21f50987cb620e5823b9a28077987dba15b5d",
+      "alias": "U",
+      "fidelity": "preserved",
+      "fact_checks": [
+        {
+          "fact": "The same background and gain apply to both readings.",
+          "status": "preserved",
+          "evidence_quote": "with B=2 and G=4 fixed for both calibration checks.",
+          "reason": "明确说明两次校准检查固定使用同一背景2和增益4。"
+        },
+        {
+          "fact": "The response definition is R=(I-B)/G.",
+          "status": "preserved",
+          "evidence_quote": "We evaluated the normalized response using R=(I-B)/G,",
+          "reason": "响应定义按原式保留。"
+        },
+        {
+          "fact": "I=14 yields R=3.",
+          "status": "preserved",
+          "evidence_quote": "For the first reading, I=14 gave R=3.",
+          "reason": "第一读数及其结果均保留，(14-2)/4=3。"
+        },
+        {
+          "fact": "I=18 yields R=4.",
+          "status": "preserved",
+          "evidence_quote": "For the second reading, I=18 gave R=4.",
+          "reason": "第二读数及其结果均保留，(18-2)/4=4。"
+        },
+        {
+          "fact": "The second response exceeds the first by one response unit.",
+          "status": "preserved",
+          "evidence_quote": "In this comparison, the second response is therefore larger than the first by one response unit.",
+          "reason": "差值一响应单位及方向均明确。"
+        },
+        {
+          "fact": "Two checks do not establish responses at all inputs.",
+          "status": "preserved",
+          "evidence_quote": "They do not establish the detector response at every input, because no additional readings or calibration model beyond the stated definition were supplied.",
+          "reason": "明确限制在两次给定读数，未扩展为所有输入的校准模型。"
+        }
+      ],
+      "notes": "最终稿与给定待评估段落逐字一致；公式、参数、两次读数、结果和差值全部保留。\nfirst/second明确指向输入读数；未添加探测器模型、连续扫描、因果机制或超出两次检查的结论。\n原段已满足准确性和指代要求；保留其术语与组织符合无改动边界。",
+      "clarity": "clear",
+      "defect_resolution": "not_applicable",
+      "unnecessary_rewrite": "no",
+      "arm": "baseline",
+      "mode": "edit",
+      "family": "coherence"
+    },
+    {
+      "case_id": "H03",
+      "review_packet_id": "b00dc6b54a436b767748ff853aa21f50987cb620e5823b9a28077987dba15b5d",
+      "alias": "V",
+      "fidelity": "preserved",
+      "fact_checks": [
+        {
+          "fact": "The same background and gain apply to both readings.",
+          "status": "preserved",
+          "evidence_quote": "with B=2 and G=4 fixed for both calibration checks.",
+          "reason": "明确说明两次校准检查固定使用同一背景2和增益4。"
+        },
+        {
+          "fact": "The response definition is R=(I-B)/G.",
+          "status": "preserved",
+          "evidence_quote": "We evaluated the normalized response using R=(I-B)/G,",
+          "reason": "响应定义按原式保留。"
+        },
+        {
+          "fact": "I=14 yields R=3.",
+          "status": "preserved",
+          "evidence_quote": "For the first reading, I=14 gave R=3.",
+          "reason": "第一读数及其结果均保留，(14-2)/4=3。"
+        },
+        {
+          "fact": "I=18 yields R=4.",
+          "status": "preserved",
+          "evidence_quote": "For the second reading, I=18 gave R=4.",
+          "reason": "第二读数及其结果均保留，(18-2)/4=4。"
+        },
+        {
+          "fact": "The second response exceeds the first by one response unit.",
+          "status": "preserved",
+          "evidence_quote": "In this comparison, the second response is therefore larger than the first by one response unit.",
+          "reason": "差值一响应单位及方向均明确。"
+        },
+        {
+          "fact": "Two checks do not establish responses at all inputs.",
+          "status": "preserved",
+          "evidence_quote": "They do not establish the detector response at every input, because no additional readings or calibration model beyond the stated definition were supplied.",
+          "reason": "明确限制在两次给定读数，未扩展为所有输入的校准模型。"
+        }
+      ],
+      "notes": "最终稿与给定待评估段落逐字一致；公式、参数、两次读数、结果和差值全部保留。\nfirst/second明确指向输入读数；未添加探测器模型、连续扫描、因果机制或超出两次检查的结论。\n原段已满足准确性和指代要求；保留其术语与组织符合无改动边界。",
+      "clarity": "clear",
+      "defect_resolution": "not_applicable",
+      "unnecessary_rewrite": "no",
+      "arm": "generic",
+      "mode": "edit",
+      "family": "coherence"
+    },
+    {
+      "case_id": "H03",
+      "review_packet_id": "b00dc6b54a436b767748ff853aa21f50987cb620e5823b9a28077987dba15b5d",
+      "alias": "W",
+      "fidelity": "preserved",
+      "fact_checks": [
+        {
+          "fact": "The same background and gain apply to both readings.",
+          "status": "preserved",
+          "evidence_quote": "with B=2 and G=4 fixed for both calibration checks.",
+          "reason": "明确说明两次校准检查固定使用同一背景2和增益4。"
+        },
+        {
+          "fact": "The response definition is R=(I-B)/G.",
+          "status": "preserved",
+          "evidence_quote": "We evaluated the normalized response using R=(I-B)/G,",
+          "reason": "响应定义按原式保留。"
+        },
+        {
+          "fact": "I=14 yields R=3.",
+          "status": "preserved",
+          "evidence_quote": "For the first reading, I=14 gave R=3.",
+          "reason": "第一读数及其结果均保留，(14-2)/4=3。"
+        },
+        {
+          "fact": "I=18 yields R=4.",
+          "status": "preserved",
+          "evidence_quote": "For the second reading, I=18 gave R=4.",
+          "reason": "第二读数及其结果均保留，(18-2)/4=4。"
+        },
+        {
+          "fact": "The second response exceeds the first by one response unit.",
+          "status": "preserved",
+          "evidence_quote": "In this comparison, the second response is therefore larger than the first by one response unit.",
+          "reason": "差值一响应单位及方向均明确。"
+        },
+        {
+          "fact": "Two checks do not establish responses at all inputs.",
+          "status": "preserved",
+          "evidence_quote": "They do not establish the detector response at every input, because no additional readings or calibration model beyond the stated definition were supplied.",
+          "reason": "明确限制在两次给定读数，未扩展为所有输入的校准模型。"
+        }
+      ],
+      "notes": "最终稿与给定待评估段落逐字一致；公式、参数、两次读数、结果和差值全部保留。\nfirst/second明确指向输入读数；未添加探测器模型、连续扫描、因果机制或超出两次检查的结论。\n原段已满足准确性和指代要求；保留其术语与组织符合无改动边界。",
+      "clarity": "clear",
+      "defect_resolution": "not_applicable",
+      "unnecessary_rewrite": "no",
+      "arm": "candidate",
+      "mode": "edit",
+      "family": "coherence"
+    },
+    {
+      "case_id": "H05",
+      "review_packet_id": "41d3a7ec437ad079e1338423527d4df6a20146bba137e22370a5865584795de9",
+      "alias": "U",
+      "fidelity": "preserved",
+      "fact_checks": [
+        {
+          "fact": "The recorded batch contains 1000 launched events.",
+          "status": "preserved",
+          "evidence_quote": "The selection procedure classified 1000 launched events as detected or undetected; 400 were detected and 300 were kept.",
+          "reason": "发射事件总数1000按原记录保留。"
+        },
+        {
+          "fact": "400 events were detected.",
+          "status": "preserved",
+          "evidence_quote": "400 were detected and 300 were kept.",
+          "reason": "探测事件数400按原记录保留。"
+        },
+        {
+          "fact": "300 events were kept.",
+          "status": "preserved",
+          "evidence_quote": "400 were detected and 300 were kept.",
+          "reason": "保留事件数300按原记录保留。"
+        },
+        {
+          "fact": "Efficiency uses detected events as its denominator and equals 0.75.",
+          "status": "preserved",
+          "evidence_quote": "Efficiency is defined as eta=kept/detected, giving eta=300/400=0.75.",
+          "reason": "明确以detected为分母，且300/400=0.75；另明确100个探测但未保留事件仍计入该分母。"
+        },
+        {
+          "fact": "Yield uses launched events as its denominator and equals 0.30.",
+          "status": "preserved",
+          "evidence_quote": "Yield uses all launched events as its denominator: Y=kept/launched=300/1000=0.30.",
+          "reason": "明确以launched为分母，且300/1000=0.30。"
+        },
+        {
+          "fact": "Detection fraction uses launched events as its denominator and equals 0.40.",
+          "status": "preserved",
+          "evidence_quote": "Detection fraction is d=detected/launched=400/1000=0.40.",
+          "reason": "明确以launched为分母，且400/1000=0.40。"
+        },
+        {
+          "fact": "The notebook phrase yield of 75 percent conflicts with the supplied definitions.",
+          "status": "preserved",
+          "evidence_quote": "Thus, the 75% figure describes efficiency, whereas the yield is 30%; the two values answer different counting questions.",
+          "reason": "75%被明确归为efficiency，yield被归为30%，已纠正原笔记的名称混用。"
+        }
+      ],
+      "notes": "三个比率的定义、同批次计数关系、每个kept事件都被detected，以及未保留的100个detected仍在效率分母中，均被保留。\n未添加重复批次、误差估计、比较基准或能量解释；high被限定为缺少定义依据的描述。\n这是依据笔记起草的任务；定义澄清和名称修正均在授权范围内。",
+      "clarity": "clear",
+      "defect_resolution": "resolved",
+      "unnecessary_rewrite": "no",
+      "arm": "candidate",
+      "mode": "draft",
+      "family": "terminology"
+    },
+    {
+      "case_id": "H05",
+      "review_packet_id": "41d3a7ec437ad079e1338423527d4df6a20146bba137e22370a5865584795de9",
+      "alias": "V",
+      "fidelity": "uncertain",
+      "fact_checks": [
+        {
+          "fact": "The recorded batch contains 1000 launched events.",
+          "status": "preserved",
+          "evidence_quote": "Of the 1000 launched events, 400 were detected and 300 were kept,",
+          "reason": "发射事件总数1000按原记录保留。"
+        },
+        {
+          "fact": "400 events were detected.",
+          "status": "preserved",
+          "evidence_quote": "Of the 1000 launched events, 400 were detected and 300 were kept,",
+          "reason": "探测事件数400按原记录保留。"
+        },
+        {
+          "fact": "300 events were kept.",
+          "status": "preserved",
+          "evidence_quote": "Of the 1000 launched events, 400 were detected and 300 were kept,",
+          "reason": "保留事件数300按原记录保留。"
+        },
+        {
+          "fact": "Efficiency uses detected events as its denominator and equals 0.75.",
+          "status": "preserved",
+          "evidence_quote": "Efficiency is eta=kept/detected, yield is Y=kept/launched, and detection fraction is d=detected/launched. Every kept event is detected, but detected events need not be kept. Of the 1000 launched events, 400 were detected and 300 were kept, giving eta=300/400=0.75, Y=300/1000=0.30, and d=400/1000=0.40.",
+          "reason": "明确以detected为分母，且300/400=0.75；另明确100个探测但未保留事件仍计入该分母。"
+        },
+        {
+          "fact": "Yield uses launched events as its denominator and equals 0.30.",
+          "status": "preserved",
+          "evidence_quote": "Efficiency is eta=kept/detected, yield is Y=kept/launched, and detection fraction is d=detected/launched. Every kept event is detected, but detected events need not be kept. Of the 1000 launched events, 400 were detected and 300 were kept, giving eta=300/400=0.75, Y=300/1000=0.30, and d=400/1000=0.40.",
+          "reason": "明确以launched为分母，且300/1000=0.30。"
+        },
+        {
+          "fact": "Detection fraction uses launched events as its denominator and equals 0.40.",
+          "status": "preserved",
+          "evidence_quote": "Efficiency is eta=kept/detected, yield is Y=kept/launched, and detection fraction is d=detected/launched. Every kept event is detected, but detected events need not be kept. Of the 1000 launched events, 400 were detected and 300 were kept, giving eta=300/400=0.75, Y=300/1000=0.30, and d=400/1000=0.40.",
+          "reason": "明确以launched为分母，且400/1000=0.40。"
+        },
+        {
+          "fact": "The notebook phrase yield of 75 percent conflicts with the supplied definitions.",
+          "status": "preserved",
+          "evidence_quote": "Accordingly, the notebook’s 75 percent figure denotes efficiency, while the yield is 30 percent.",
+          "reason": "75%被明确归为efficiency，yield被归为30%，已纠正原笔记的名称混用。"
+        }
+      ],
+      "notes": "所有required_facts均有明确原文支持，后文公式、计数和值均正确；75%名称混用已被明确纠正。\n首句为：For the recorded batch, efficiency, yield, and detection fraction use different denominators. 这里different denominators可被读作三者分母彼此不同；但所列公式表明yield与detection fraction共用launched分母。也可将该措辞理解为这组三个比率并非全部使用同一个分母，因此属于局部范围歧义，不能据此断言公式已被改写。整体fidelity记uncertain，反映这句新增概括的歧义。\n后文保留同批次计数、100个detected但未kept事件计入效率分母、不作能量解释及缺少重复和误差估计；未引入基准或机制。\n原笔记的75%标签与无依据high已处理；不同分母的统称仍需精确化，故术语缺陷解决记partial。任务需要起草，未见越界的结构重写。",
+      "clarity": "mixed",
+      "defect_resolution": "partial",
+      "unnecessary_rewrite": "no",
+      "arm": "baseline",
+      "mode": "draft",
+      "family": "terminology"
+    },
+    {
+      "case_id": "H05",
+      "review_packet_id": "41d3a7ec437ad079e1338423527d4df6a20146bba137e22370a5865584795de9",
+      "alias": "W",
+      "fidelity": "uncertain",
+      "fact_checks": [
+        {
+          "fact": "The recorded batch contains 1000 launched events.",
+          "status": "preserved",
+          "evidence_quote": "Of 1000 launched events, 400 were detected and 300 were kept,",
+          "reason": "发射事件总数1000按原记录保留。"
+        },
+        {
+          "fact": "400 events were detected.",
+          "status": "preserved",
+          "evidence_quote": "Of 1000 launched events, 400 were detected and 300 were kept,",
+          "reason": "探测事件数400按原记录保留。"
+        },
+        {
+          "fact": "300 events were kept.",
+          "status": "preserved",
+          "evidence_quote": "Of 1000 launched events, 400 were detected and 300 were kept,",
+          "reason": "保留事件数300按原记录保留。"
+        },
+        {
+          "fact": "Efficiency uses detected events as its denominator and equals 0.75.",
+          "status": "preserved",
+          "evidence_quote": "Efficiency is eta=kept/detected, yield is Y=kept/launched, and detection fraction is d=detected/launched. Every kept event is detected. Of 1000 launched events, 400 were detected and 300 were kept, giving eta=300/400=0.75, Y=300/1000=0.30, and d=400/1000=0.40.",
+          "reason": "明确以detected为分母，且300/400=0.75；另明确100个探测但未保留事件仍计入该分母。"
+        },
+        {
+          "fact": "Yield uses launched events as its denominator and equals 0.30.",
+          "status": "preserved",
+          "evidence_quote": "Efficiency is eta=kept/detected, yield is Y=kept/launched, and detection fraction is d=detected/launched. Every kept event is detected. Of 1000 launched events, 400 were detected and 300 were kept, giving eta=300/400=0.75, Y=300/1000=0.30, and d=400/1000=0.40.",
+          "reason": "明确以launched为分母，且300/1000=0.30。"
+        },
+        {
+          "fact": "Detection fraction uses launched events as its denominator and equals 0.40.",
+          "status": "preserved",
+          "evidence_quote": "Efficiency is eta=kept/detected, yield is Y=kept/launched, and detection fraction is d=detected/launched. Every kept event is detected. Of 1000 launched events, 400 were detected and 300 were kept, giving eta=300/400=0.75, Y=300/1000=0.30, and d=400/1000=0.40.",
+          "reason": "明确以launched为分母，且400/1000=0.40。"
+        },
+        {
+          "fact": "The notebook phrase yield of 75 percent conflicts with the supplied definitions.",
+          "status": "preserved",
+          "evidence_quote": "The notebook's 300/400 ratio therefore represents an efficiency of 75%, not a yield of 75%.",
+          "reason": "75%被明确归为efficiency，yield被归为30%，已纠正原笔记的名称混用。"
+        }
+      ],
+      "notes": "所有required_facts均有明确原文支持，后文公式、计数和值均正确；75%名称混用已被明确纠正。\n首句为：Selection performance in the supplied synthetic batch is described by three count ratios with different denominators. 这里different denominators可被读作三者分母彼此不同；但所列公式表明yield与detection fraction共用launched分母。也可将该措辞理解为这组三个比率并非全部使用同一个分母，因此属于局部范围歧义，不能据此断言公式已被改写。整体fidelity记uncertain，反映这句新增概括的歧义。\n后文保留同批次计数、100个detected但未kept事件计入效率分母、不作能量解释及缺少重复和误差估计；未引入基准或机制。\n原笔记的75%标签与无依据high已处理；不同分母的统称仍需精确化，故术语缺陷解决记partial。任务需要起草，未见越界的结构重写。",
+      "clarity": "mixed",
+      "defect_resolution": "partial",
+      "unnecessary_rewrite": "no",
+      "arm": "generic",
+      "mode": "draft",
+      "family": "terminology"
+    },
+    {
+      "case_id": "H06",
+      "review_packet_id": "0e84de859c973a2f16815b19c2fbdfe4f9f62bb14b69850a2cb1e5b0c1c0f3da",
+      "alias": "U",
+      "fidelity": "preserved",
+      "fact_checks": [
+        {
+          "fact": "Gain is the multiplicative coefficient 0.8.",
+          "status": "preserved",
+          "evidence_quote": "The model transfer function is F(x)=0.8x+0.2 for dimensionless x, where the gain is 0.8 and the offset is 0.2. At the reference input x=1, the output is F(1)=1.0. This agreement between output and input at the reference point does not make the gain equal to one: gain denotes the multiplier of x, whereas offset denotes the additive constant.",
+          "reason": "数值0.8和乘法系数的操作定义均被明确保留。"
+        },
+        {
+          "fact": "Offset is the additive constant 0.2.",
+          "status": "preserved",
+          "evidence_quote": "The model transfer function is F(x)=0.8x+0.2 for dimensionless x, where the gain is 0.8 and the offset is 0.2. At the reference input x=1, the output is F(1)=1.0. This agreement between output and input at the reference point does not make the gain equal to one: gain denotes the multiplier of x, whereas offset denotes the additive constant.",
+          "reason": "数值0.2和加法常数的操作定义均被明确保留。"
+        },
+        {
+          "fact": "The input x is dimensionless.",
+          "status": "preserved",
+          "evidence_quote": "The model transfer function is F(x)=0.8x+0.2 for dimensionless x,",
+          "reason": "x无量纲的限定原样保留。"
+        },
+        {
+          "fact": "At x=1 the output is 1.0.",
+          "status": "preserved",
+          "evidence_quote": "At the reference input x=1, the output is F(1)=1.0.",
+          "reason": "参考输入和对应输出均原样保留。"
+        },
+        {
+          "fact": "Equality of input and output at x=1 does not imply unit gain.",
+          "status": "preserved",
+          "evidence_quote": "This agreement between output and input at the reference point does not make the gain equal to one: gain denotes the multiplier of x, whereas offset denotes the additive constant.",
+          "reason": "明确排除由单点输出等于输入推出单位增益。"
+        },
+        {
+          "fact": "The reference check does not imply a vanishing offset.",
+          "status": "preserved",
+          "evidence_quote": "It should not be described as a measurement of unit gain or as evidence that the offset vanishes.",
+          "reason": "明确排除将参考检查视为offset消失的证据。"
+        }
+      ],
+      "notes": "最终稿与给定待评估段落逐字一致；模型、系数及术语gain/offset的定义均未改变。\n参考点检验只核对x=1的函数值；未将单点输出输入比重新命名为gain，也未改变非零offset。\n原段的定义到参考检查再到解释边界的组织清楚，无必要改写；保持原状符合任务边界。",
+      "clarity": "clear",
+      "defect_resolution": "not_applicable",
+      "unnecessary_rewrite": "no",
+      "arm": "candidate",
+      "mode": "edit",
+      "family": "terminology"
+    },
+    {
+      "case_id": "H06",
+      "review_packet_id": "0e84de859c973a2f16815b19c2fbdfe4f9f62bb14b69850a2cb1e5b0c1c0f3da",
+      "alias": "V",
+      "fidelity": "preserved",
+      "fact_checks": [
+        {
+          "fact": "Gain is the multiplicative coefficient 0.8.",
+          "status": "preserved",
+          "evidence_quote": "The model transfer function is F(x)=0.8x+0.2 for dimensionless x, where the gain is 0.8 and the offset is 0.2. At the reference input x=1, the output is F(1)=1.0. This agreement between output and input at the reference point does not make the gain equal to one: gain denotes the multiplier of x, whereas offset denotes the additive constant.",
+          "reason": "数值0.8和乘法系数的操作定义均被明确保留。"
+        },
+        {
+          "fact": "Offset is the additive constant 0.2.",
+          "status": "preserved",
+          "evidence_quote": "The model transfer function is F(x)=0.8x+0.2 for dimensionless x, where the gain is 0.8 and the offset is 0.2. At the reference input x=1, the output is F(1)=1.0. This agreement between output and input at the reference point does not make the gain equal to one: gain denotes the multiplier of x, whereas offset denotes the additive constant.",
+          "reason": "数值0.2和加法常数的操作定义均被明确保留。"
+        },
+        {
+          "fact": "The input x is dimensionless.",
+          "status": "preserved",
+          "evidence_quote": "The model transfer function is F(x)=0.8x+0.2 for dimensionless x,",
+          "reason": "x无量纲的限定原样保留。"
+        },
+        {
+          "fact": "At x=1 the output is 1.0.",
+          "status": "preserved",
+          "evidence_quote": "At the reference input x=1, the output is F(1)=1.0.",
+          "reason": "参考输入和对应输出均原样保留。"
+        },
+        {
+          "fact": "Equality of input and output at x=1 does not imply unit gain.",
+          "status": "preserved",
+          "evidence_quote": "This agreement between output and input at the reference point does not make the gain equal to one: gain denotes the multiplier of x, whereas offset denotes the additive constant.",
+          "reason": "明确排除由单点输出等于输入推出单位增益。"
+        },
+        {
+          "fact": "The reference check does not imply a vanishing offset.",
+          "status": "preserved",
+          "evidence_quote": "It should not be described as a measurement of unit gain or as evidence that the offset vanishes.",
+          "reason": "明确排除将参考检查视为offset消失的证据。"
+        }
+      ],
+      "notes": "最终稿与给定待评估段落逐字一致；模型、系数及术语gain/offset的定义均未改变。\n参考点检验只核对x=1的函数值；未将单点输出输入比重新命名为gain，也未改变非零offset。\n原段的定义到参考检查再到解释边界的组织清楚，无必要改写；保持原状符合任务边界。",
+      "clarity": "clear",
+      "defect_resolution": "not_applicable",
+      "unnecessary_rewrite": "no",
+      "arm": "baseline",
+      "mode": "edit",
+      "family": "terminology"
+    },
+    {
+      "case_id": "H06",
+      "review_packet_id": "0e84de859c973a2f16815b19c2fbdfe4f9f62bb14b69850a2cb1e5b0c1c0f3da",
+      "alias": "W",
+      "fidelity": "preserved",
+      "fact_checks": [
+        {
+          "fact": "Gain is the multiplicative coefficient 0.8.",
+          "status": "preserved",
+          "evidence_quote": "The model transfer function is F(x)=0.8x+0.2 for dimensionless x, where the gain is 0.8 and the offset is 0.2. At the reference input x=1, the output is F(1)=1.0. This agreement between output and input at the reference point does not make the gain equal to one: gain denotes the multiplier of x, whereas offset denotes the additive constant.",
+          "reason": "数值0.8和乘法系数的操作定义均被明确保留。"
+        },
+        {
+          "fact": "Offset is the additive constant 0.2.",
+          "status": "preserved",
+          "evidence_quote": "The model transfer function is F(x)=0.8x+0.2 for dimensionless x, where the gain is 0.8 and the offset is 0.2. At the reference input x=1, the output is F(1)=1.0. This agreement between output and input at the reference point does not make the gain equal to one: gain denotes the multiplier of x, whereas offset denotes the additive constant.",
+          "reason": "数值0.2和加法常数的操作定义均被明确保留。"
+        },
+        {
+          "fact": "The input x is dimensionless.",
+          "status": "preserved",
+          "evidence_quote": "The model transfer function is F(x)=0.8x+0.2 for dimensionless x,",
+          "reason": "x无量纲的限定原样保留。"
+        },
+        {
+          "fact": "At x=1 the output is 1.0.",
+          "status": "preserved",
+          "evidence_quote": "At the reference input x=1, the output is F(1)=1.0.",
+          "reason": "参考输入和对应输出均原样保留。"
+        },
+        {
+          "fact": "Equality of input and output at x=1 does not imply unit gain.",
+          "status": "preserved",
+          "evidence_quote": "This agreement between output and input at the reference point does not make the gain equal to one: gain denotes the multiplier of x, whereas offset denotes the additive constant.",
+          "reason": "明确排除由单点输出等于输入推出单位增益。"
+        },
+        {
+          "fact": "The reference check does not imply a vanishing offset.",
+          "status": "preserved",
+          "evidence_quote": "It should not be described as a measurement of unit gain or as evidence that the offset vanishes.",
+          "reason": "明确排除将参考检查视为offset消失的证据。"
+        }
+      ],
+      "notes": "最终稿与给定待评估段落逐字一致；模型、系数及术语gain/offset的定义均未改变。\n参考点检验只核对x=1的函数值；未将单点输出输入比重新命名为gain，也未改变非零offset。\n原段的定义到参考检查再到解释边界的组织清楚，无必要改写；保持原状符合任务边界。",
+      "clarity": "clear",
+      "defect_resolution": "not_applicable",
+      "unnecessary_rewrite": "no",
+      "arm": "generic",
+      "mode": "edit",
+      "family": "terminology"
+    },
+    {
+      "case_id": "H09",
+      "review_packet_id": "968ccb07170aa7c39844119356b4c201608ec51e677459b1e867099e2539d405",
+      "alias": "U",
+      "fidelity": "preserved",
+      "fact_checks": [
+        {
+          "fact": "The change is final energy minus initial energy.",
+          "status": "preserved",
+          "evidence_quote": "The signed energy change is defined by DeltaE=E_final-E_initial, with energies expressed in the arbitrary unit u.",
+          "reason": "final减initial的符号约定原样保留。"
+        },
+        {
+          "fact": "A starts at 5.2 u.",
+          "status": "preserved",
+          "evidence_quote": "In step A, the energy changed from 5.2 u to 4.7 u, giving DeltaE_A=-0.5 u.",
+          "reason": "A初始能量5.2 u正确保留。"
+        },
+        {
+          "fact": "A ends at 4.7 u.",
+          "status": "preserved",
+          "evidence_quote": "In step A, the energy changed from 5.2 u to 4.7 u, giving DeltaE_A=-0.5 u.",
+          "reason": "A最终能量4.7 u正确保留。"
+        },
+        {
+          "fact": "A has a signed change of -0.5 u.",
+          "status": "preserved",
+          "evidence_quote": "In step A, the energy changed from 5.2 u to 4.7 u, giving DeltaE_A=-0.5 u.",
+          "reason": "A变化保留为-0.5 u，与4.7-5.2一致。"
+        },
+        {
+          "fact": "A has lower final than initial energy.",
+          "status": "preserved",
+          "evidence_quote": "The negative sign means that the final energy was lower than the initial energy.",
+          "reason": "A的负变化被解释为最终能量较低，未用绝对值反转方向。"
+        },
+        {
+          "fact": "B starts at 3.1 u.",
+          "status": "preserved",
+          "evidence_quote": "In step B, the energy changed from 3.1 u to 3.3 u, giving DeltaE_B=+0.2 u; the final energy was higher than the initial energy.",
+          "reason": "B初始能量3.1 u正确保留。"
+        },
+        {
+          "fact": "B ends at 3.3 u.",
+          "status": "preserved",
+          "evidence_quote": "In step B, the energy changed from 3.1 u to 3.3 u, giving DeltaE_B=+0.2 u; the final energy was higher than the initial energy.",
+          "reason": "B最终能量3.3 u正确保留。"
+        },
+        {
+          "fact": "B has a signed change of +0.2 u.",
+          "status": "preserved",
+          "evidence_quote": "In step B, the energy changed from 3.1 u to 3.3 u, giving DeltaE_B=+0.2 u; the final energy was higher than the initial energy.",
+          "reason": "B变化保留为+0.2 u，与3.3-3.1一致。"
+        },
+        {
+          "fact": "B has higher final than initial energy.",
+          "status": "preserved",
+          "evidence_quote": "In step B, the energy changed from 3.1 u to 3.3 u, giving DeltaE_B=+0.2 u; the final energy was higher than the initial energy.",
+          "reason": "B的正变化被解释为最终能量较高。"
+        },
+        {
+          "fact": "The steps are independent bookkeeping examples.",
+          "status": "preserved",
+          "evidence_quote": "Steps A and B are separate bookkeeping examples, not successive stages of one trajectory.",
+          "reason": "明确说明两者为分立记账例子，未连接为单条连续轨迹。"
+        },
+        {
+          "fact": "No thermal interpretation or common mechanism is supplied.",
+          "status": "preserved",
+          "evidence_quote": "The supplied values describe their signed energy differences but specify no temperature, heat flow, or mechanism, so they do not establish cooling or heating through a shared thermal process.",
+          "reason": "明确标出温度、热流和机制均未提供，并拒绝据此推出共同热过程。"
+        }
+      ],
+      "notes": "所有初末能量、任意单位u和final-initial符号约定均保留；负值与正值的方向解释正确，绝对变化量未冒充有符号变化。\n原段中A增能、两步连续轨迹和共同热机制的错误断言均已删除并纠正；最终稿保留两步各自独立及温度/热流/机制未给定的边界。\n解释改变对应待修复错误；未引入新的物理机制、测量或因果结论，未见不必要的术语替换或结构改写。",
+      "clarity": "clear",
+      "defect_resolution": "resolved",
+      "unnecessary_rewrite": "no",
+      "arm": "baseline",
+      "mode": "edit",
+      "family": "fidelity"
+    },
+    {
+      "case_id": "H09",
+      "review_packet_id": "968ccb07170aa7c39844119356b4c201608ec51e677459b1e867099e2539d405",
+      "alias": "V",
+      "fidelity": "preserved",
+      "fact_checks": [
+        {
+          "fact": "The change is final energy minus initial energy.",
+          "status": "preserved",
+          "evidence_quote": "The signed energy change is defined as DeltaE=E_final-E_initial, with energies expressed in the arbitrary unit u.",
+          "reason": "final减initial的符号约定原样保留。"
+        },
+        {
+          "fact": "A starts at 5.2 u.",
+          "status": "preserved",
+          "evidence_quote": "Step A starts at 5.2 u and ends at 4.7 u, giving DeltaE_A=-0.5 u.",
+          "reason": "A初始能量5.2 u正确保留。"
+        },
+        {
+          "fact": "A ends at 4.7 u.",
+          "status": "preserved",
+          "evidence_quote": "Step A starts at 5.2 u and ends at 4.7 u, giving DeltaE_A=-0.5 u.",
+          "reason": "A最终能量4.7 u正确保留。"
+        },
+        {
+          "fact": "A has a signed change of -0.5 u.",
+          "status": "preserved",
+          "evidence_quote": "Step A starts at 5.2 u and ends at 4.7 u, giving DeltaE_A=-0.5 u.",
+          "reason": "A变化保留为-0.5 u，与4.7-5.2一致。"
+        },
+        {
+          "fact": "A has lower final than initial energy.",
+          "status": "preserved",
+          "evidence_quote": "Under this convention, the negative change in A means that its final energy is lower, while the positive change in B means that its final energy is higher.",
+          "reason": "A的负变化被解释为最终能量较低，未用绝对值反转方向。"
+        },
+        {
+          "fact": "B starts at 3.1 u.",
+          "status": "preserved",
+          "evidence_quote": "Step B starts at 3.1 u and ends at 3.3 u, giving DeltaE_B=+0.2 u.",
+          "reason": "B初始能量3.1 u正确保留。"
+        },
+        {
+          "fact": "B ends at 3.3 u.",
+          "status": "preserved",
+          "evidence_quote": "Step B starts at 3.1 u and ends at 3.3 u, giving DeltaE_B=+0.2 u.",
+          "reason": "B最终能量3.3 u正确保留。"
+        },
+        {
+          "fact": "B has a signed change of +0.2 u.",
+          "status": "preserved",
+          "evidence_quote": "Step B starts at 3.1 u and ends at 3.3 u, giving DeltaE_B=+0.2 u.",
+          "reason": "B变化保留为+0.2 u，与3.3-3.1一致。"
+        },
+        {
+          "fact": "B has higher final than initial energy.",
+          "status": "preserved",
+          "evidence_quote": "Under this convention, the negative change in A means that its final energy is lower, while the positive change in B means that its final energy is higher.",
+          "reason": "B的正变化被解释为最终能量较高。"
+        },
+        {
+          "fact": "The steps are independent bookkeeping examples.",
+          "status": "preserved",
+          "evidence_quote": "A and B are separate bookkeeping steps, not successive stages of one trajectory.",
+          "reason": "明确说明两者为分立记账例子，未连接为单条连续轨迹。"
+        },
+        {
+          "fact": "No thermal interpretation or common mechanism is supplied.",
+          "status": "preserved",
+          "evidence_quote": "No temperature, heat flow, or mechanism is specified, so these energy values do not establish cooling, heating, or a shared thermal process.",
+          "reason": "明确标出温度、热流和机制均未提供，并拒绝据此推出共同热过程。"
+        }
+      ],
+      "notes": "所有初末能量、任意单位u和final-initial符号约定均保留；负值与正值的方向解释正确，绝对变化量未冒充有符号变化。\n原段中A增能、两步连续轨迹和共同热机制的错误断言均已删除并纠正；最终稿保留两步各自独立及温度/热流/机制未给定的边界。\n解释改变对应待修复错误；未引入新的物理机制、测量或因果结论，未见不必要的术语替换或结构改写。",
+      "clarity": "clear",
+      "defect_resolution": "resolved",
+      "unnecessary_rewrite": "no",
+      "arm": "candidate",
+      "mode": "edit",
+      "family": "fidelity"
+    },
+    {
+      "case_id": "H09",
+      "review_packet_id": "968ccb07170aa7c39844119356b4c201608ec51e677459b1e867099e2539d405",
+      "alias": "W",
+      "fidelity": "preserved",
+      "fact_checks": [
+        {
+          "fact": "The change is final energy minus initial energy.",
+          "status": "preserved",
+          "evidence_quote": "For the two separate bookkeeping steps, the signed energy change is defined by DeltaE=E_final-E_initial, with energies expressed in the arbitrary unit u.",
+          "reason": "final减initial的符号约定原样保留。"
+        },
+        {
+          "fact": "A starts at 5.2 u.",
+          "status": "preserved",
+          "evidence_quote": "Step A starts at 5.2 u and ends at 4.7 u, giving DeltaE_A=-0.5 u.",
+          "reason": "A初始能量5.2 u正确保留。"
+        },
+        {
+          "fact": "A ends at 4.7 u.",
+          "status": "preserved",
+          "evidence_quote": "Step A starts at 5.2 u and ends at 4.7 u, giving DeltaE_A=-0.5 u.",
+          "reason": "A最终能量4.7 u正确保留。"
+        },
+        {
+          "fact": "A has a signed change of -0.5 u.",
+          "status": "preserved",
+          "evidence_quote": "Step A starts at 5.2 u and ends at 4.7 u, giving DeltaE_A=-0.5 u.",
+          "reason": "A变化保留为-0.5 u，与4.7-5.2一致。"
+        },
+        {
+          "fact": "A has lower final than initial energy.",
+          "status": "preserved",
+          "evidence_quote": "Its final energy is therefore lower than its initial energy by 0.5 u.",
+          "reason": "A的负变化被解释为最终能量较低，未用绝对值反转方向。"
+        },
+        {
+          "fact": "B starts at 3.1 u.",
+          "status": "preserved",
+          "evidence_quote": "Step B starts at 3.1 u and ends at 3.3 u, giving DeltaE_B=+0.2 u;",
+          "reason": "B初始能量3.1 u正确保留。"
+        },
+        {
+          "fact": "B ends at 3.3 u.",
+          "status": "preserved",
+          "evidence_quote": "Step B starts at 3.1 u and ends at 3.3 u, giving DeltaE_B=+0.2 u;",
+          "reason": "B最终能量3.3 u正确保留。"
+        },
+        {
+          "fact": "B has a signed change of +0.2 u.",
+          "status": "preserved",
+          "evidence_quote": "Step B starts at 3.1 u and ends at 3.3 u, giving DeltaE_B=+0.2 u;",
+          "reason": "B变化保留为+0.2 u，与3.3-3.1一致。"
+        },
+        {
+          "fact": "B has higher final than initial energy.",
+          "status": "preserved",
+          "evidence_quote": "Step B starts at 3.1 u and ends at 3.3 u, giving DeltaE_B=+0.2 u; its final energy is higher by 0.2 u.",
+          "reason": "B的正变化被解释为最终能量较高。"
+        },
+        {
+          "fact": "The steps are independent bookkeeping examples.",
+          "status": "preserved",
+          "evidence_quote": "Steps A and B are separate examples, not successive stages of one trajectory.",
+          "reason": "明确说明两者为分立记账例子，未连接为单条连续轨迹。"
+        },
+        {
+          "fact": "No thermal interpretation or common mechanism is supplied.",
+          "status": "preserved",
+          "evidence_quote": "No temperature, heat flow, or physical mechanism is supplied, so these values do not establish cooling or heating through a common thermal process.",
+          "reason": "明确标出温度、热流和机制均未提供，并拒绝据此推出共同热过程。"
+        }
+      ],
+      "notes": "所有初末能量、任意单位u和final-initial符号约定均保留；负值与正值的方向解释正确，绝对变化量未冒充有符号变化。\n原段中A增能、两步连续轨迹和共同热机制的错误断言均已删除并纠正；最终稿保留两步各自独立及温度/热流/机制未给定的边界。\n解释改变对应待修复错误；未引入新的物理机制、测量或因果结论，未见不必要的术语替换或结构改写。",
+      "clarity": "clear",
+      "defect_resolution": "resolved",
+      "unnecessary_rewrite": "no",
+      "arm": "generic",
+      "mode": "edit",
+      "family": "fidelity"
+    },
+    {
+      "case_id": "H12",
+      "review_packet_id": "a73265f556e72c713bf2994ab4d938dc840ed3b1b3074758bb2066013d34a325",
+      "alias": "U",
+      "fidelity": "preserved",
+      "fact_checks": [
+        {
+          "fact": "The benchmark contains three test cases.",
+          "status": "preserved",
+          "evidence_quote": "We compared uniform and adaptive stepping on three test cases,",
+          "reason": "三例规模被明确保留。"
+        },
+        {
+          "fact": "Acceptance uses epsilon=10^-3 relative to the supplied reference solutions.",
+          "status": "preserved",
+          "evidence_quote": "using an acceptance tolerance of epsilon=10^-3 relative to the supplied reference solutions.",
+          "reason": "容差数值、相对于给定参考解的验收方式均未改变。"
+        },
+        {
+          "fact": "Both solvers pass every supplied case.",
+          "status": "preserved",
+          "evidence_quote": "Both solvers met this tolerance in every case.",
+          "reason": "明确说明两个求解器在每一例都满足相同容差。"
+        },
+        {
+          "fact": "Uniform stepping takes 200 steps per case.",
+          "status": "preserved",
+          "evidence_quote": "The uniform solver used 200 steps per case, whereas the adaptive solver used 120, 150, and 180 steps, respectively.",
+          "reason": "uniform每例200步原样保留。"
+        },
+        {
+          "fact": "Adaptive stepping takes 120 steps in the first case.",
+          "status": "preserved",
+          "evidence_quote": "The uniform solver used 200 steps per case, whereas the adaptive solver used 120, 150, and 180 steps, respectively.",
+          "reason": "120列于有respectively的有序三元组第一项，对应第一例。"
+        },
+        {
+          "fact": "Adaptive stepping takes 150 steps in the second case.",
+          "status": "preserved",
+          "evidence_quote": "The uniform solver used 200 steps per case, whereas the adaptive solver used 120, 150, and 180 steps, respectively.",
+          "reason": "150列于有respectively的有序三元组第二项，对应第二例。"
+        },
+        {
+          "fact": "Adaptive stepping takes 180 steps in the third case.",
+          "status": "preserved",
+          "evidence_quote": "The uniform solver used 200 steps per case, whereas the adaptive solver used 120, 150, and 180 steps, respectively.",
+          "reason": "180列于有respectively的有序三元组第三项，对应第三例。"
+        },
+        {
+          "fact": "The adaptive solver uses fewer steps for each supplied case.",
+          "status": "preserved",
+          "evidence_quote": "Adaptive stepping therefore required fewer steps on each of these tests while satisfying the same acceptance criterion.",
+          "reason": "逐例减少步数的结论正确，且仍保留相同验收标准。"
+        },
+        {
+          "fact": "No elapsed runtime was measured.",
+          "status": "preserved",
+          "evidence_quote": "Because elapsed runtime was not measured, it does not establish a speed improvement.",
+          "reason": "运行时间未测量的限制明确，未把步数减少改写为已测加速。"
+        },
+        {
+          "fact": "Other problems remain untested.",
+          "status": "preserved",
+          "evidence_quote": "The three supplied cases also leave performance on other problems untested, so the result is limited to this benchmark.",
+          "reason": "明确将结论限制在给定benchmark，不扩展至其他问题。"
+        }
+      ],
+      "notes": "最终稿与给定待评估段落逐字一致；三例、验收容差、通过结果和各例步数全部保留。\n按比较设置、验收、计数结果、结论和适用范围展开，原组织已可用；未强加其他修辞模板。\n步数减少与elapsed runtime明确分开，未添加加速、时间测量或对未测试问题的普遍结论。",
+      "clarity": "clear",
+      "defect_resolution": "not_applicable",
+      "unnecessary_rewrite": "no",
+      "arm": "generic",
+      "mode": "edit",
+      "family": "organization"
+    },
+    {
+      "case_id": "H12",
+      "review_packet_id": "a73265f556e72c713bf2994ab4d938dc840ed3b1b3074758bb2066013d34a325",
+      "alias": "V",
+      "fidelity": "preserved",
+      "fact_checks": [
+        {
+          "fact": "The benchmark contains three test cases.",
+          "status": "preserved",
+          "evidence_quote": "We compared uniform and adaptive stepping on three test cases,",
+          "reason": "三例规模被明确保留。"
+        },
+        {
+          "fact": "Acceptance uses epsilon=10^-3 relative to the supplied reference solutions.",
+          "status": "preserved",
+          "evidence_quote": "using an acceptance tolerance of epsilon=10^-3 relative to the supplied reference solutions.",
+          "reason": "容差数值、相对于给定参考解的验收方式均未改变。"
+        },
+        {
+          "fact": "Both solvers pass every supplied case.",
+          "status": "preserved",
+          "evidence_quote": "Both solvers met this tolerance in every case.",
+          "reason": "明确说明两个求解器在每一例都满足相同容差。"
+        },
+        {
+          "fact": "Uniform stepping takes 200 steps per case.",
+          "status": "preserved",
+          "evidence_quote": "The uniform solver used 200 steps per case, whereas the adaptive solver used 120, 150, and 180 steps, respectively.",
+          "reason": "uniform每例200步原样保留。"
+        },
+        {
+          "fact": "Adaptive stepping takes 120 steps in the first case.",
+          "status": "preserved",
+          "evidence_quote": "The uniform solver used 200 steps per case, whereas the adaptive solver used 120, 150, and 180 steps, respectively.",
+          "reason": "120列于有respectively的有序三元组第一项，对应第一例。"
+        },
+        {
+          "fact": "Adaptive stepping takes 150 steps in the second case.",
+          "status": "preserved",
+          "evidence_quote": "The uniform solver used 200 steps per case, whereas the adaptive solver used 120, 150, and 180 steps, respectively.",
+          "reason": "150列于有respectively的有序三元组第二项，对应第二例。"
+        },
+        {
+          "fact": "Adaptive stepping takes 180 steps in the third case.",
+          "status": "preserved",
+          "evidence_quote": "The uniform solver used 200 steps per case, whereas the adaptive solver used 120, 150, and 180 steps, respectively.",
+          "reason": "180列于有respectively的有序三元组第三项，对应第三例。"
+        },
+        {
+          "fact": "The adaptive solver uses fewer steps for each supplied case.",
+          "status": "preserved",
+          "evidence_quote": "Adaptive stepping therefore required fewer steps on each of these tests while satisfying the same acceptance criterion.",
+          "reason": "逐例减少步数的结论正确，且仍保留相同验收标准。"
+        },
+        {
+          "fact": "No elapsed runtime was measured.",
+          "status": "preserved",
+          "evidence_quote": "Because elapsed runtime was not measured, it does not establish a speed improvement.",
+          "reason": "运行时间未测量的限制明确，未把步数减少改写为已测加速。"
+        },
+        {
+          "fact": "Other problems remain untested.",
+          "status": "preserved",
+          "evidence_quote": "The three supplied cases also leave performance on other problems untested, so the result is limited to this benchmark.",
+          "reason": "明确将结论限制在给定benchmark，不扩展至其他问题。"
+        }
+      ],
+      "notes": "最终稿与给定待评估段落逐字一致；三例、验收容差、通过结果和各例步数全部保留。\n按比较设置、验收、计数结果、结论和适用范围展开，原组织已可用；未强加其他修辞模板。\n步数减少与elapsed runtime明确分开，未添加加速、时间测量或对未测试问题的普遍结论。",
+      "clarity": "clear",
+      "defect_resolution": "not_applicable",
+      "unnecessary_rewrite": "no",
+      "arm": "baseline",
+      "mode": "edit",
+      "family": "organization"
+    },
+    {
+      "case_id": "H12",
+      "review_packet_id": "a73265f556e72c713bf2994ab4d938dc840ed3b1b3074758bb2066013d34a325",
+      "alias": "W",
+      "fidelity": "preserved",
+      "fact_checks": [
+        {
+          "fact": "The benchmark contains three test cases.",
+          "status": "preserved",
+          "evidence_quote": "We compared uniform and adaptive stepping on three test cases,",
+          "reason": "三例规模被明确保留。"
+        },
+        {
+          "fact": "Acceptance uses epsilon=10^-3 relative to the supplied reference solutions.",
+          "status": "preserved",
+          "evidence_quote": "using an acceptance tolerance of epsilon=10^-3 relative to the supplied reference solutions.",
+          "reason": "容差数值、相对于给定参考解的验收方式均未改变。"
+        },
+        {
+          "fact": "Both solvers pass every supplied case.",
+          "status": "preserved",
+          "evidence_quote": "Both solvers met this tolerance in every case.",
+          "reason": "明确说明两个求解器在每一例都满足相同容差。"
+        },
+        {
+          "fact": "Uniform stepping takes 200 steps per case.",
+          "status": "preserved",
+          "evidence_quote": "The uniform solver used 200 steps per case, whereas the adaptive solver used 120, 150, and 180 steps, respectively.",
+          "reason": "uniform每例200步原样保留。"
+        },
+        {
+          "fact": "Adaptive stepping takes 120 steps in the first case.",
+          "status": "preserved",
+          "evidence_quote": "The uniform solver used 200 steps per case, whereas the adaptive solver used 120, 150, and 180 steps, respectively.",
+          "reason": "120列于有respectively的有序三元组第一项，对应第一例。"
+        },
+        {
+          "fact": "Adaptive stepping takes 150 steps in the second case.",
+          "status": "preserved",
+          "evidence_quote": "The uniform solver used 200 steps per case, whereas the adaptive solver used 120, 150, and 180 steps, respectively.",
+          "reason": "150列于有respectively的有序三元组第二项，对应第二例。"
+        },
+        {
+          "fact": "Adaptive stepping takes 180 steps in the third case.",
+          "status": "preserved",
+          "evidence_quote": "The uniform solver used 200 steps per case, whereas the adaptive solver used 120, 150, and 180 steps, respectively.",
+          "reason": "180列于有respectively的有序三元组第三项，对应第三例。"
+        },
+        {
+          "fact": "The adaptive solver uses fewer steps for each supplied case.",
+          "status": "preserved",
+          "evidence_quote": "Adaptive stepping therefore required fewer steps on each of these tests while satisfying the same acceptance criterion.",
+          "reason": "逐例减少步数的结论正确，且仍保留相同验收标准。"
+        },
+        {
+          "fact": "No elapsed runtime was measured.",
+          "status": "preserved",
+          "evidence_quote": "Because elapsed runtime was not measured, it does not establish a speed improvement.",
+          "reason": "运行时间未测量的限制明确，未把步数减少改写为已测加速。"
+        },
+        {
+          "fact": "Other problems remain untested.",
+          "status": "preserved",
+          "evidence_quote": "The three supplied cases also leave performance on other problems untested, so the result is limited to this benchmark.",
+          "reason": "明确将结论限制在给定benchmark，不扩展至其他问题。"
+        }
+      ],
+      "notes": "最终稿与给定待评估段落逐字一致；三例、验收容差、通过结果和各例步数全部保留。\n按比较设置、验收、计数结果、结论和适用范围展开，原组织已可用；未强加其他修辞模板。\n步数减少与elapsed runtime明确分开，未添加加速、时间测量或对未测试问题的普遍结论。",
+      "clarity": "clear",
+      "defect_resolution": "not_applicable",
+      "unnecessary_rewrite": "no",
+      "arm": "candidate",
+      "mode": "edit",
+      "family": "organization"
+    }
+  ],
+  "human_participants": 0,
+  "interpretation": "Targeted repeat review of the same outputs, not additional independent generation samples."
+}

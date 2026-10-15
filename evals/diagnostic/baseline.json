@@ -1,0 +1,15 @@
+{
+  "baseline_commit": "a059a92e196679d6f0dc54dc8d02ba2ff18155ed",
+  "files": {
+    "LICENSE": "b3c5c37a171e1e59865de4411ad486546df82350a1cf8b0b501eaa2087d04542",
+    "SKILL.md": "ca40ddd591cef29522957160078811bce5bfa9c14f80fddc5a963af84885a289",
+    "profile.json": "9d1ef965e931cfeb06cad2a3017623b1400d6fb8540ff5caa0ced31426c84086",
+    "references/evidence-workflow.md": "f10d640bfc1ee7927aec50dec361b2d5cda98a18826f1be692aab6216513be85",
+    "references/local-evidence.md": "a8e33fe5e0139cfc601a1a30ce78b65e0e888c7c91130aaa078e55fd25fc08ab",
+    "references/local-source-anchors.jsonl": "6e35980f79628cc0922a992e0a245d964e9c9729fe3866fff3c19359c90fdb93",
+    "references/outline-contract.md": "2fc8572f35892b6f820b584f2d91624fcf10e65258e7e409fd4537eb7da67cbc",
+    "references/structure-evidence.md": "30e13e6d0573c555478360051fde0509a253337bdf7491bdc32c45c83fa761f9",
+    "references/structure-source-anchors.jsonl": "4b98a525ec67424e9a3fa057b25e3414d02ca34b3a25aa51ec9618fe35ad9428",
+    "scripts/check_outline.py": "62470eddb04e983d12fb2bb049941017c130b5a903fabbd29efb9819309268cd"
+  }
+}

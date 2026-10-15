@@ -1,0 +1,18 @@
+{
+  "schema": "physwhen.candidate.freeze.v1",
+  "files": {
+    "LICENSE": "b3c5c37a171e1e59865de4411ad486546df82350a1cf8b0b501eaa2087d04542",
+    "SKILL.md": "2a1e2b4ed1f4cb32ad17c082e42127a42a81bd53358f114526c2704f161b44d5",
+    "profile.json": "deec843febf31a1a15150a05d04445f7c569b5fcc697eec5fda2450d05b2eb66",
+    "references/editing-operations.md": "96c1a39de2ee8ec67fb1821ac8c202b049667bb704421ba64b2ef7e188b43e27",
+    "references/evidence-workflow.md": "f10d640bfc1ee7927aec50dec361b2d5cda98a18826f1be692aab6216513be85",
+    "references/local-evidence.md": "a8e33fe5e0139cfc601a1a30ce78b65e0e888c7c91130aaa078e55fd25fc08ab",
+    "references/local-source-anchors.jsonl": "6e35980f79628cc0922a992e0a245d964e9c9729fe3866fff3c19359c90fdb93",
+    "references/organization.md": "d399b49d58138fac483b740ebb709526cfceb92a797bbaf75b1d174a19022312",
+    "references/outline-contract.md": "2fc8572f35892b6f820b584f2d91624fcf10e65258e7e409fd4537eb7da67cbc",
+    "references/structure-evidence.md": "30e13e6d0573c555478360051fde0509a253337bdf7491bdc32c45c83fa761f9",
+    "references/structure-source-anchors.jsonl": "4b98a525ec67424e9a3fa057b25e3414d02ca34b3a25aa51ec9618fe35ad9428",
+    "scripts/check_outline.py": "c42b92111845ec7f3283cb38e9555832030b36c448edd2587679df51e1775734"
+  },
+  "bundle_sha256": "448df85d4481c53aa73792ba1babc2a463f67c5c63f3dd9da400a2265ae7c5af"
+}

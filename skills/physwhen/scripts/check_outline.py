@@ -2,6 +2,8 @@
 import argparse,json,sys
 
 def check(data):
+    if not isinstance(data,dict):
+        return {'status':'fail','errors':['top level: expected object'],'review_hints':[],'limits':'Integrity only. Does not evaluate scientific support, completeness, organization quality or readability.'}
     errors=[];hints=[];groups={};all_ids=set()
     for name in ['questions','claims','evidence','conditions','sections','deferred_material']:
         entries=data.get(name,[])
