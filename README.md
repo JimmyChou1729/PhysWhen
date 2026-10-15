@@ -8,10 +8,6 @@ English | [简体中文](README.zh-CN.md)
 
 Physics papers can be hard to follow even when every sentence is grammatical. Late assumptions, derivations disconnected from the research question, and conclusions that exceed the evidence all reduce readability. PhysWhen turns source-traceable observations from historical research papers into practical writing instructions for an agent.
 
-Give it your draft or research notes. It helps organize the argument and improve the prose while preserving your equations, numerical results, and scientific qualifications. It does not impose a fixed paper template.
-
-**One skill, continuously updated:** [`physwhen`](skills/physwhen/SKILL.md). The name and installation path stay the same; Git history identifies specific revisions. It is an instruction package, not a fine-tuned model, and needs no paper corpus or additional model API to use.
-
 ## Quick start
 
 Clone the repository, or download the [portable skill ZIP](deliverables/PhysWhen-skill.zip). The repository currently requires private access.
