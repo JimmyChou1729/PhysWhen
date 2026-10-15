@@ -10,7 +10,7 @@ Physics papers can be hard to follow even when every sentence is grammatical. La
 
 ## Quick start
 
-Clone the repository, or download the [portable skill ZIP](deliverables/PhysWhen-skill.zip). The repository currently requires private access.
+Clone the repository, or download the [portable skill ZIP](deliverables/PhysWhen-skill.zip).
 
 ```bash
 git clone https://github.com/jimmychou1729/PhysWhen.git
@@ -103,4 +103,4 @@ Paper full texts, raw caches, complete annotation contexts, condition mappings, 
 
 PhysWhen's original code, skill instructions, documentation, and generated study materials are licensed under the [MIT License](LICENSE). You may use, modify, redistribute, and use them commercially, provided you retain the copyright and license notice. The software is provided without warranty.
 
-This license does not relicense the historical papers or third-party components. See [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md) for their terms and [PUBLISHING.md (Chinese)](docs/PUBLISHING.md) for publication boundaries. The repository remains private; adopting MIT does not change its visibility.
+This license does not relicense the historical papers or third-party components. See [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md) for their terms and [PUBLISHING.md (Chinese)](docs/PUBLISHING.md) for publication boundaries.

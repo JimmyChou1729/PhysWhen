@@ -10,7 +10,7 @@
 
 ## 快速开始
 
-克隆仓库，或下载[可分发 skill ZIP](deliverables/PhysWhen-skill.zip)。目前仓库仍需私有访问权限。
+克隆仓库，或下载[可分发 skill ZIP](deliverables/PhysWhen-skill.zip)。
 
 ```bash
 git clone https://github.com/jimmychou1729/PhysWhen.git
@@ -103,4 +103,4 @@ docs/             使用、研究、开发和发布说明
 
 PhysWhen 的原创代码、skill 指令、文档和生成的实验材料采用 [MIT 许可证](LICENSE)。允许使用、修改、再分发和商业使用，需保留版权与许可声明；软件不提供担保。
 
-该许可不改变历史论文或第三方组件的原有许可。详见 [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md) 和[发布说明](docs/PUBLISHING.md)。仓库仍为私有；采用 MIT 不会自动改变可见性。
+该许可不改变历史论文或第三方组件的原有许可。详见 [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md) 和[发布说明](docs/PUBLISHING.md)。
