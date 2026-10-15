@@ -1,0 +1,15 @@
+{
+  "version": "semantic-v1.1",
+  "frozen_at": "2026-10-14T08:24:27.077888+00:00",
+  "change_reason": "Clarified after discovery-only agent audit, before writing strategy freeze and heldout fact-brief reading. No heldout semantic labels used.",
+  "scopes": {
+    "S01": "target paragraph",
+    "S02": "explicit purpose BEFORE first target display, within supplied window",
+    "S03": "meaning/use/scope of target display AFTER it, within supplied window",
+    "S04": "explicitly selected newly introduced local item in full window; before or same introductory clause/defining identity yes; subsequent where sentence no; unestablished newness uncertain; no global claim",
+    "S05": "identified key transition in complete supplied window",
+    "S06": "identified principal claim in complete supplied window"
+  },
+  "sampling_warning": "formula-centered windows; not an unbiased paragraph sample; optional adjacent contexts may overlap",
+  "human_gold_standard": false
+}

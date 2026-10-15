@@ -1,0 +1,22 @@
+<!doctype html><html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>PhysWhen · 宇宙学阅读对照</title><link rel="stylesheet" href="vendor/katex/dist/katex.min.css"><link rel="stylesheet" href="style.css"><script defer src="vendor/katex/dist/katex.min.js"></script><script defer src="vendor/katex/dist/contrib/auto-render.min.js"></script><script defer src="data.js"></script><script defer src="app.js"></script></head><body>
+<header><div><b>PhysWhen</b><span class="tag">宇宙学阅读对照</span></div><div><span id="progress"></span><button id="export">下载结果</button></div></header>
+<main><section class="intro"><p class="eyebrow">只记录阅读感受，无需答知识题</p><h1>哪篇可读性更高？</h1><p>共三组宇宙学材料：背景膨胀、原初扰动与引力波、暗物质与结构形成。每组两篇短论文，每篇约1,000英文词，含摘要与完整论证。两版讨论相同科学内容，章节安排可以不同。两版左右并排，可直接对照。读完一组后，只需在底部选一次整体偏好；理由选填。可以只完成一组，无需答知识题。</p><p class="hint">本次代号：<b id="participant-code"></b></p><p id="save-status" role="status" aria-live="polite"></p></section>
+<nav id="case-nav" aria-label="选择阅读组"></nav>
+<div class="pair-heading"><h2 id="case-label" tabindex="-1"></h2><a href="#comparison">读完后评价 ↓</a></div>
+<section id="papers" class="workspace" aria-label="两版论文并排对照"></section>
+<section id="comparison" class="comparison" aria-labelledby="comparison-title">
+<p class="eyebrow">每组只选一次 · 自动保存</p><h2 id="comparison-title">哪版更容易跟上论证、让你愿意继续读？</h2>
+<p class="hint">请读完两版后选择；无需猜测来源，也无需评价物理结论是否正确。</p>
+<fieldset id="preference"><legend class="sr-only">本组整体偏好</legend>
+<label><input type="radio" name="preference" value="X">版本 X</label>
+<label><input type="radio" name="preference" value="Y">版本 Y</label>
+<label><input type="radio" name="preference" value="tie">两版相近</label>
+<label><input type="radio" name="preference" value="uncertain">无法判断</label></fieldset>
+<details id="optional-feedback"><summary>补充理由或背景（选填）</summary>
+<label for="comparison-note">选择的理由</label><textarea id="comparison-note" rows="2" placeholder="例如：哪一处让你更容易跟上，或在哪里读不下去。"></textarea>
+<label for="familiarity">对这组内容的熟悉程度</label><select id="familiarity"><option value="">不填写</option><option value="unfamiliar">不熟悉</option><option value="basic">了解基本背景</option><option value="familiar">较熟悉</option></select>
+<label for="prior-exposure">此前参加过旧轮，或看过相关评价／条件说明？</label><select id="prior-exposure"><option value="">不填写</option><option value="no">没有</option><option value="yes">看过</option><option value="unsure">不确定</option></select></details>
+<p id="pair-status" class="hint" role="status" aria-live="polite"></p><button id="next-case" type="button">下一组（可选）</button>
+</section>
+<section class="return-results"><h2>把结果交回邀请者</h2><p>完成一组就可以下载；部分完成也会保留。请私信发送结果文件，避免影响其他同学的判断。</p><button id="export-bottom">下载结果文件</button> <button id="copy-results">无法下载？复制结果文本</button><label id="copy-label" hidden>复制下面全部内容，私信发送给邀请者<textarea id="result-text" rows="8" readonly></textarea></label><p id="export-status" role="status" aria-live="polite"></p></section>
+<footer>PhysWhen · 本地阅读体验研究</footer></main></body></html>

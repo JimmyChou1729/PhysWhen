@@ -1,0 +1,240 @@
+{
+  "status": "candidate; no human readability benefit established",
+  "version": 3,
+  "corpus_papers": 500,
+  "discovery_papers": 400,
+  "heldout_papers": 100,
+  "automatic_feature_scope": "D01–D06 and source-located navigation inventory; not automatic argument inference",
+  "local_semantic": {
+    "original": {
+      "papers": 15,
+      "windows": 60,
+      "labels": 360
+    },
+    "v2_additional": {
+      "papers": 12,
+      "windows": 60,
+      "labels": 360
+    },
+    "pooling": "separate designs and denominators; inventory total27papers/120windows/720labels"
+  },
+  "structure_semantic": {
+    "papers_full_mainbody_read": 30,
+    "main_paragraphs": 1349,
+    "main_prose_words": 134946,
+    "selected_nodes": 539,
+    "selected_edges": 537,
+    "edge_basis_counts": {
+      "explicit": 479,
+      "inferred": 58
+    },
+    "question_status_counts": {
+      "answered": 55,
+      "open": 34,
+      "uncertain": 1
+    },
+    "sampling_stages": [
+      {
+        "sample_file": "data/structure/sample.json",
+        "selected_papers": 12,
+        "completed_papers": 12,
+        "main_body_paragraphs": 573,
+        "main_body_prose_words": 57899,
+        "selected_nodes": 211,
+        "selected_edges": 217
+      },
+      {
+        "sample_file": "data/structure/additional_sample.json",
+        "selected_papers": 12,
+        "completed_papers": 12,
+        "main_body_paragraphs": 514,
+        "main_body_prose_words": 52208,
+        "selected_nodes": 215,
+        "selected_edges": 200
+      },
+      {
+        "sample_file": "data/structure/supplement_sample.json",
+        "selected_papers": 6,
+        "completed_papers": 6,
+        "main_body_paragraphs": 262,
+        "main_body_prose_words": 24839,
+        "selected_nodes": 113,
+        "selected_edges": 120
+      }
+    ]
+  },
+  "structure_sample_files": [
+    "data/structure/sample.json",
+    "data/structure/additional_sample.json",
+    "data/structure/supplement_sample.json"
+  ],
+  "new_exploratory_feature_groups": [
+    "M01",
+    "M02",
+    "M03",
+    "M04"
+  ],
+  "structural_anchor_count": 12,
+  "structural_anchor_sha256": "4b98a525ec67424e9a3fa057b25e3414d02ca34b3a25aa51ec9618fe35ad9428",
+  "candidate_operations": 7,
+  "human_readability_effect": "not_established",
+  "weights_trained": false,
+  "reference_distributions": {
+    "D01_sentence_iqr": {
+      "n": 400,
+      "missing": 0,
+      "q25": 12.25,
+      "median": 14.0,
+      "q75": 16.0,
+      "p90": 18.0,
+      "median_bootstrap_95": [
+        14.0,
+        14.25
+      ],
+      "support": "descriptive"
+    },
+    "D01_sentence_median": {
+      "n": 400,
+      "missing": 0,
+      "q25": 19.0,
+      "median": 21.0,
+      "q75": 24.0,
+      "p90": 26.5,
+      "median_bootstrap_95": [
+        21.0,
+        22.0
+      ],
+      "support": "descriptive"
+    },
+    "D01_sentence_p90": {
+      "n": 400,
+      "missing": 0,
+      "q25": 34.0,
+      "median": 38.0,
+      "q75": 42.20000000000002,
+      "p90": 47.230000000000025,
+      "median_bootstrap_95": [
+        37.0,
+        38.599999999999994
+      ],
+      "support": "descriptive"
+    },
+    "D02_paragraph_median": {
+      "n": 400,
+      "missing": 0,
+      "q25": 74.375,
+      "median": 92.0,
+      "q75": 114.0,
+      "p90": 145.0,
+      "median_bootstrap_95": [
+        89.0,
+        96.0
+      ],
+      "support": "descriptive"
+    },
+    "D03_display_per_1000_words": {
+      "n": 400,
+      "missing": 0,
+      "q25": 6.217589786719223,
+      "median": 11.396400139927987,
+      "q75": 16.51707926270042,
+      "p90": 23.813072173727914,
+      "median_bootstrap_95": [
+        10.420951834028623,
+        12.168928320633933
+      ],
+      "support": "descriptive"
+    },
+    "D04_after_median": {
+      "n": 398,
+      "missing": 2,
+      "q25": 15.0,
+      "median": 19.5,
+      "q75": 24.0,
+      "p90": 29.0,
+      "median_bootstrap_95": [
+        19.0,
+        20.0
+      ],
+      "support": "descriptive"
+    },
+    "D04_before_median": {
+      "n": 398,
+      "missing": 2,
+      "q25": 14.5,
+      "median": 18.75,
+      "q75": 23.5,
+      "p90": 27.0,
+      "median_bootstrap_95": [
+        18.0,
+        19.5
+      ],
+      "support": "descriptive"
+    },
+    "D05_ref_paragraph_fraction": {
+      "n": 400,
+      "missing": 0,
+      "q25": 0.3354885057471264,
+      "median": 0.4693147590361446,
+      "q75": 0.5992924528301887,
+      "p90": 0.7077564102564103,
+      "median_bootstrap_95": [
+        0.45,
+        0.49033885015244666
+      ],
+      "support": "descriptive"
+    },
+    "D05_refs_per_1000_words": {
+      "n": 400,
+      "missing": 0,
+      "q25": 6.544371744933538,
+      "median": 11.28519521972433,
+      "q75": 16.499397765777214,
+      "p90": 23.21304122635037,
+      "median_bootstrap_95": [
+        10.672962700277704,
+        11.979463776383342
+      ],
+      "support": "descriptive"
+    },
+    "D06_causal_contrast_per_1000_words": {
+      "n": 400,
+      "missing": 0,
+      "q25": 2.0617590689191485,
+      "median": 3.2560916910142685,
+      "q75": 4.497484133376545,
+      "p90": 5.956786208053186,
+      "median_bootstrap_95": [
+        3.0539111474548557,
+        3.4757422886844327
+      ],
+      "support": "descriptive"
+    },
+    "D06_definition_per_1000_words": {
+      "n": 400,
+      "missing": 0,
+      "q25": 0.0,
+      "median": 0.34155621479894704,
+      "q75": 0.7549546124233639,
+      "p90": 1.1940800322081881,
+      "median_bootstrap_95": [
+        0.29287146580274,
+        0.3911852914330421
+      ],
+      "support": "descriptive"
+    },
+    "D06_limitation_per_1000_words": {
+      "n": 400,
+      "missing": 0,
+      "q25": 0.1466384235019107,
+      "median": 0.5096469847692546,
+      "q75": 1.0055311805755869,
+      "p90": 1.6075432146455324,
+      "median_bootstrap_95": [
+        0.44438215366780764,
+        0.5855140130849354
+      ],
+      "support": "descriptive"
+    }
+  }
+}

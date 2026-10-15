@@ -1,0 +1,10 @@
+{
+  "example_type": "synthetic_interface_demo_not_research_data",
+  "questions": [{"id": "q1", "text": "What follows under the supplied assumptions?", "status": "answered", "claim_ids": ["c1"]}],
+  "claims": [{"id": "c1", "text": "Placeholder for the user's supplied result", "status": "supported", "evidence_ids": ["e1"], "condition_ids": ["a1"]}],
+  "evidence": [{"id": "e1", "text": "Placeholder for the user's derivation"}],
+  "conditions": [{"id": "a1", "text": "Placeholder for the stated regime"}],
+  "sections": [{"id": "s1", "purpose": "Present the question, supplied derivation and conditional result", "claim_ids": ["c1"], "evidence_ids": ["e1"], "condition_ids": ["a1"]}],
+  "dependencies": [{"from": "a1", "to": "c1"}, {"from": "e1", "to": "c1"}],
+  "deferred_material": []
+}

@@ -1,0 +1,58 @@
+# Default-deny root: new research data/artifacts require explicit review before tracking.
+/*
+!/.gitignore
+!/README.md
+!/THIRD_PARTY_NOTICES.md
+!/docs/
+!/examples/
+!/physstyle/
+!/scripts/
+!/tests/
+!/configs/
+!/skills/
+!/reader/
+!/deliverables/
+
+# Only the current, reviewed portable skill; legacy experiments stay local.
+/skills/*
+!/skills/physics-paper-style-v3/
+
+# Reader assets contain masked texts, never the private assignment key.
+/reader/*
+!/reader/index.html
+!/reader/app.js
+!/reader/style.css
+!/reader/data.js
+!/reader/README.md
+!/reader/vendor/
+
+# Explicit transferable artifacts only.
+/deliverables/*
+!/deliverables/PhysWhen-skill-v3.zip
+!/deliverables/PhysWhen-Blind-Test-03.html
+!/deliverables/PhysWhen-Blind-Test-03.zip
+!/deliverables/PhysWhen-03-阅读邀请.txt
+
+# All subdirectories: credentials, local settings, caches and backups.
+**/.DS_Store
+**/__pycache__/
+*.py[cod]
+.env
+.env.*
+*.pem
+*.key
+*.p12
+*.log
+*.tmp
+*~
+**/.venv/
+**/node_modules/
+
+# Retain only KaTeX runtime files used by the reader, with original license/fonts.
+/reader/vendor/katex/dist/*
+!/reader/vendor/katex/dist/katex.min.js
+!/reader/vendor/katex/dist/katex.min.css
+!/reader/vendor/katex/dist/fonts/
+!/reader/vendor/katex/dist/contrib/
+/reader/vendor/katex/dist/contrib/*
+!/reader/vendor/katex/dist/contrib/auto-render.min.js

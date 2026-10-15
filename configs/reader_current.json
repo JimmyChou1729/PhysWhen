@@ -1,0 +1,8 @@
+{
+  "experiment_root": "experiments/cosmology_skill_v3_papers",
+  "round_label": "03",
+  "protocol": "cosmology-paper-full-skill-v3-free-structure-round03",
+  "standalone_name": "PhysWhen-Blind-Test-03.html",
+  "paper_format": true,
+  "feedback_instrument": "pair-preference-v1"
+}
