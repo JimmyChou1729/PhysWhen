@@ -4,7 +4,7 @@ from pathlib import Path
 import zipfile
 
 FILES = (
-    'SKILL.md', 'profile.json',
+    'SKILL.md', 'profile.json', 'LICENSE',
     'references/structure-evidence.md', 'references/structure-source-anchors.jsonl',
     'references/local-evidence.md', 'references/local-source-anchors.jsonl',
     'references/outline-contract.md', 'scripts/check_outline.py',
@@ -46,5 +46,7 @@ if __name__ == '__main__':
     parser.add_argument('--check', action='store_true', help='Verify the existing ZIP without writing it')
     args = parser.parse_args()
     base = Path(__file__).resolve().parents[1]
+    if (base / 'LICENSE').read_bytes() != (base / 'skills/physwhen/LICENSE').read_bytes():
+        raise SystemExit('Root and portable skill licenses differ')
     count = package(base / 'skills/physwhen', base / 'deliverables/PhysWhen-skill.zip', args.check)
     print(('Verified' if args.check else 'Built') + f' physwhen: {count} portable files. No scientific or readability validation implied.')

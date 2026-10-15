@@ -2,19 +2,17 @@
 
 > AI can code. AI can do math. Physics when?
 
-**An agent skill for clearer theoretical-physics papers—from the overall argument to the prose around an equation.**
+**An agent skill for clearer theoretical-physics papers—from whole-paper structure to sentence-level editing.**
 
 English | [简体中文](README.zh-CN.md)
 
-Physics papers can be hard to follow even when every sentence is grammatical. Assumptions arrive too late, derivations lose their connection to the question, and conclusions claim more than the results establish. PhysWhen turns source-traceable observations from historical research papers into practical writing instructions for an agent.
+Physics papers can be hard to follow even when every sentence is grammatical. Late assumptions, derivations disconnected from the research question, and conclusions that exceed the evidence all reduce readability. PhysWhen turns source-traceable observations from historical research papers into practical writing instructions for an agent.
 
 Give it your draft or research notes. It helps organize the argument and improve the prose while preserving your equations, numerical results, and scientific qualifications. It does not impose a fixed paper template.
 
 **One skill, continuously updated:** [`physwhen`](skills/physwhen/SKILL.md). The name and installation path stay the same; Git history identifies specific revisions. It is an instruction package, not a fine-tuned model, and needs no paper corpus or additional model API to use.
 
 ## Quick start
-
-### 1. Get the skill
 
 Clone the repository, or download the [portable skill ZIP](deliverables/PhysWhen-skill.zip). The repository currently requires private access.
 
@@ -36,9 +34,9 @@ fi
 
 Select `physwhen` in your skill picker; Codex CLI and IDE also support `$physwhen`. If it does not appear, restart the client. See the [official skill documentation](https://learn.chatgpt.com/docs/build-skills) for discovery paths. Other compatible agents should receive the complete folder through their own installation mechanism; they have not all been tested here.
 
-### 2. Ask normally
+## Usage
 
-Attach or point to your material, then say:
+Example requests:
 
 > Use physwhen to revise this paper.
 
@@ -46,21 +44,9 @@ Attach or point to your material, then say:
 
 > Use physwhen to improve this paragraph.
 
-You do not need to repeat its rules. With a draft, it infers the relevant scope, audience, and length. With research notes, it builds a suitable argument around the supplied results. A topic alone is enough to start an outline, but not to invent original findings; it asks only for missing information that matters.
-
-No installation yet? In a session with access to this repository, ask: “Read `skills/physwhen/SKILL.md` and use physwhen to revise `draft.tex`.”
-
-## More control when you need it
-
-**Structure before rewriting**
-
-> Use physwhen to review draft.tex. Propose a clearer outline before editing. The audience knows cosmology but not this model.
-
-**A draft with a length target**
+> Use physwhen to review draft.tex. Propose a new outline without editing the file. The audience knows cosmology but not this model.
 
 > Use physwhen to turn notes.md into a 2,500-word English draft. Keep the supplied results and flag missing material separately.
-
-**A narrow edit**
 
 > Use physwhen to polish only these two paragraphs, preserving the notation and assumptions.
 
@@ -111,12 +97,14 @@ examples/         Synthetic interface examples
 physstyle/        Research and feedback tools
 scripts/          Packaging, analysis, and validation
 reader/           Anonymous reading-study frontend
-deliverables/    Portable skill and reader files
-docs/            Usage, research, development, and publishing notes
+deliverables/     Portable skill and reader files
+docs/             Usage, research, development, and publishing notes
 ```
 
 ## Data and licensing
 
 Paper full texts, raw caches, complete annotation contexts, condition mappings, and participant responses stay outside Git. The skill includes descriptive statistics and source locators rather than paper full texts.
 
-No open-source license has been adopted yet. The repository remains private. Third-party components retain their own terms; see [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md). Publication boundaries are documented in [PUBLISHING.md (Chinese)](docs/PUBLISHING.md).
+PhysWhen's original code, skill instructions, documentation, and generated study materials are licensed under the [MIT License](LICENSE). You may use, modify, redistribute, and use them commercially, provided you retain the copyright and license notice. The software is provided without warranty.
+
+This license does not relicense the historical papers or third-party components. See [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md) for their terms and [PUBLISHING.md (Chinese)](docs/PUBLISHING.md) for publication boundaries. The repository remains private; adopting MIT does not change its visibility.

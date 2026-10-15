@@ -17,6 +17,8 @@ html=html.replace('</head>','<style>'+css+'\n'+(root/'style.css').read_text()+'<
 js=''
 for resource_name in ['vendor/katex/dist/katex.min.js','vendor/katex/dist/contrib/auto-render.min.js','data.js','app.js']:
  code=(root/resource_name).read_text();code=re.sub(r'//# sourceMappingURL=.*','',code);code=re.sub(r'</script',lambda m:'<\\/script',code,flags=re.I);js+='<script>'+code+'\n</script>\n'
+project_license=Path('LICENSE').read_text()
+html=html.replace('</body>','<!-- PhysWhen MIT License:\n'+project_license+'\n-->\n</body>')
 license=(root/'vendor/katex/LICENSE').read_text()
 html=html.replace('</body>','<!-- Bundled KaTeX 0.16.22 license:\n'+license+'\n-->\n'+js+'</body>')
 require_no_external=re.findall(r'<(?:script|link)\b[^>]*\b(?:src|href)=',html,re.I)

@@ -1,6 +1,6 @@
 # 版本管理与发布范围
 
-首个远程仓库使用 `jimmychou1729/PhysWhen`，按私有仓库准备。只有维护者确认后才能改变可见性、指定开源许可或发布站点。GitHub仓库本身不是盲测结果收集服务。
+远程仓库为 `jimmychou1729/PhysWhen`，仍为私有。项目原创内容已按维护者要求采用 [MIT 许可证](../LICENSE)；改变可见性或发布站点仍需维护者明确授权。GitHub仓库本身不是盲测结果收集服务。
 
 ## 入库范围
 
@@ -32,3 +32,7 @@
 ## 单一维护入口
 
 只维护 `skills/physwhen/` 和 `deliverables/PhysWhen-skill.zip`。英文 README 为默认入口，`README.zh-CN.md` 为对应中文版；同步更新核心说明、命令和证据范围。用 Git 提交定位历史内容，不再新增带编号的对外skill目录。旧实验快照及协议标识保持原样，只用于追溯。
+
+## MIT 许可随包分发
+
+根目录 `LICENSE` 与 `skills/physwhen/LICENSE` 保持一致，打包校验会检查二者。skill ZIP 包含该许可；独立盲测 HTML 在源码注释中保留项目许可及 KaTeX 原许可。MIT 适用于本项目原创内容，不覆盖历史论文、完整语料或第三方权利。

@@ -10,4 +10,6 @@ Research papers remain subject to their authors' and publishers' applicable term
 
 ## PhysWhen licensing status
 
-No open-source license has yet been selected for PhysWhen's own code, skill or generated study materials. This document is a notice, not a grant of additional rights. A public release and license selection require a separate maintainer decision.
+PhysWhen's original code, skill instructions, documentation, and generated study materials are licensed under the [MIT License](LICENSE), copyright (c) 2026 JimmyChou1729.
+
+The portable skill includes its own copy of the license. The standalone reader embeds both the PhysWhen license and the original KaTeX license. This project license does not grant additional rights in historical papers or replace third-party terms. Repository visibility is managed separately.
