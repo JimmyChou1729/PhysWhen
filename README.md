@@ -52,6 +52,10 @@ Example requests:
 
 These extra instructions are optional. Full-paper organization, local editing, and the optional outline checker are explained in the [usage guide (Chinese)](docs/USAGE.md).
 
+## Evidence before drafting, checks after writing
+
+For both a new draft and a revision—even a short passage—PhysWhen first searches relevant literature and terminology, reads the needed sources, and maps key claims to their evidence and conditions. It writes from those notes, then checks the finished text against sources, terminology, equations, and scope. Retrieval is proportional to the task. If it cannot retrieve sources, it reports that limitation and offers only clearly identified source-limited work; it does not claim verification. This workflow is a design constraint, not a proven readability improvement. See the [evidence workflow](skills/physwhen/references/evidence-workflow.md).
+
 ## What it does
 
 | Task | What PhysWhen considers |

@@ -1,6 +1,6 @@
 ---
 name: physwhen
-description: Write, revise, or organize English theoretical-physics research papers from supplied scientific material. Use when asked to use PhysWhen, draft a physics paper, improve its argument structure, or edit its prose while preserving the physics.
+description: Write, revise, or organize English theoretical-physics research papers using literature retrieval and claim–evidence checks. Use when asked to use PhysWhen, draft a physics paper, improve its argument structure, or edit its prose while preserving the physics.
 ---
 
 Use the user's scientific material, requested length and intended reader as the authority. PhysWhen combines exploratory whole-paper organization with local prose operations. Historical examples establish possible organizations, not ideal human writing or a proven readability benefit.
@@ -13,7 +13,15 @@ A broad revision request permits useful changes to argument order and prose whil
 
 ## Choose the scope
 
-For a copy edit or isolated paragraph, use only the relevant local operation below. For a whole draft, outline or authorized structural revision, inspect the supplied question, results, evidence and necessary conditions before choosing sections. Respect a journal's required organization. Do not turn a short request into a full-paper planning exercise.
+Complete the evidence workflow below for both drafting and revision. For a copy edit or isolated paragraph, keep retrieval focused and apply only the relevant local operations below. For a whole draft, outline or authorized structural revision, inspect the supplied question, results, evidence and necessary conditions before choosing sections. Respect a journal's required organization. Do not turn a short request into a full-paper planning exercise.
+
+## Retrieve, establish support, write, and check
+
+Before writing or revising any scientific passage, including a short edit, read and follow [references/evidence-workflow.md](references/evidence-workflow.md). Search relevant literature and terminology, open the sources needed for the task, and assemble concise claim–evidence notes before drafting. The user's draft alone and the historical style corpus do not replace this step. Scale the search to the passage or paper; do not expand a local edit into an exhaustive review.
+
+Use those notes to constrain the draft. After drafting, check the final claims, terminology, citations, equations and conditions against the actual evidence and supplied material; correct unsupported additions or disclose unresolved issues before delivery. A fluent draft or a real citation is not sufficient evidence of correctness. Give a brief source/check summary outside the paper, with substantive gaps, without exposing a lengthy planning narrative.
+
+If retrieval is unavailable or the user explicitly disallows it, say that the required literature check was not performed. Continue only with clearly identified source-limited editing or a provisional outline where appropriate; do not invent sources, claim verification, or fabricate research results. This workflow is a user-requested design constraint, not an empirically demonstrated benefit of the 500-paper corpus.
 
 ## Organize the argument when needed
 
@@ -49,6 +57,6 @@ This terminology check responds to a user-reported failure mode. It is an editor
 
 Preserve supplied equations, signs, units, numerical values, variable meanings, negations, necessary conditions and quantifier scope unless a scientific change is requested. Identify conflicting supplied statements rather than silently choosing one. Use authorized citations; do not invent novelty claims, literature gaps, results or source quotations. Author-presented support in an example is not independent validation of its physics.
 
-Return the requested prose or outline. Keep the planning ledger internal unless requested or needed to expose a material gap. The optional [scripts/check_outline.py](scripts/check_outline.py) checks a supplied outline ledger's references and coverage, not the validity of an argument. Its JSON contract and invocation are in [references/outline-contract.md](references/outline-contract.md). No ledger is required for ordinary writing.
+Return the requested prose or outline. Keep the planning ledger internal unless requested or needed to expose a material gap. The optional [scripts/check_outline.py](scripts/check_outline.py) checks a supplied outline ledger's references and coverage, not the validity of an argument. Its JSON contract and invocation are in [references/outline-contract.md](references/outline-contract.md). No formal JSON outline ledger is required for ordinary writing; the concise claim–evidence notes in the evidence workflow are still required.
 
 [profile.json](profile.json) reports corpus and annotation denominators separately. Descriptive lengths or section shares are neither optimal targets nor per-paragraph quotas. Do not tune a short excerpt to a whole-paper median. Never output an AI-authorship probability, a single human-likeness score or a claim of improved understanding merely because an organization occurs in historical papers.

@@ -242,5 +242,11 @@
     "basis": "user-reported failure mode; editorial design constraint",
     "historical_corpus_measurement": "not_performed",
     "human_readability_effect": "not_established"
+  },
+  "evidence_workflow_policy": {
+    "basis": "user-requested research-before-writing and post-draft checking",
+    "scope": "all scientific drafting and revision; retrieval proportional to task",
+    "historical_corpus_measurement": "not_performed",
+    "human_readability_effect": "not_established"
   }
 }
